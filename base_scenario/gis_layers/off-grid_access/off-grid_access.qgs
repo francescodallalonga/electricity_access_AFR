@@ -1,0 +1,4615 @@
+<!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
+<qgis projectname="" version="3.0.1-Girona">
+  <title></title>
+  <autotransaction active="0"/>
+  <evaluateDefaultValues active="0"/>
+  <trust active="0"/>
+  <projectCrs>
+    <spatialrefsys>
+      <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+      <srsid>3452</srsid>
+      <srid>4326</srid>
+      <authid>EPSG:4326</authid>
+      <description>WGS 84</description>
+      <projectionacronym>longlat</projectionacronym>
+      <ellipsoidacronym>WGS84</ellipsoidacronym>
+      <geographicflag>true</geographicflag>
+    </spatialrefsys>
+  </projectCrs>
+  <layer-tree-group>
+    <customproperties/>
+    <layer-tree-layer source="./wtp_new.shp" expanded="1" id="wtp_new_e65d8f09_39a1_4dee_977b_b0bbfde2e7fc" name="wtp_new" checked="Qt::Unchecked" providerKey="ogr">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer source="./wtp_vec.shp" expanded="1" id="wtp_vec_704fe842_eb4b_4d96_a6ba_1b95961717b4" name="wtp_vec" checked="Qt::Checked" providerKey="ogr">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-group expanded="0" name="WTP" checked="Qt::Checked">
+      <customproperties/>
+      <layer-tree-layer source="./wtp_2050.TIF" expanded="0" id="wtp_2050_de26a376_1474_4fc8_b7bb_19360166ba17" name="wtp_2050" checked="Qt::Unchecked" providerKey="gdal">
+        <customproperties/>
+      </layer-tree-layer>
+      <layer-tree-layer source="./wtp_2040.TIF" expanded="0" id="wtp_2040_23a30cc6_d84d_4586_81a4_2b10c72db3bd" name="wtp_2040" checked="Qt::Unchecked" providerKey="gdal">
+        <customproperties/>
+      </layer-tree-layer>
+      <layer-tree-layer source="./wtp_2030.TIF" expanded="0" id="wtp_2030_721732cf_aa4f_4f14_afcb_b24a058ce10c" name="wtp_2030" checked="Qt::Unchecked" providerKey="gdal">
+        <customproperties/>
+      </layer-tree-layer>
+      <layer-tree-layer source="./wtp_2020.TIF" expanded="0" id="wtp_2020_5d608978_4126_455c_ac83_37ede24267c5" name="wtp_2020" checked="Qt::Unchecked" providerKey="gdal">
+        <customproperties/>
+      </layer-tree-layer>
+      <layer-tree-layer source="./wtp_2010.TIF" expanded="0" id="wtp_2010_151a1812_861a_47c0_b952_2a599acdaf39" name="wtp_2010" checked="Qt::Unchecked" providerKey="gdal">
+        <customproperties/>
+      </layer-tree-layer>
+    </layer-tree-group>
+    <layer-tree-group expanded="1" name="access_bin" checked="Qt::Checked">
+      <customproperties/>
+      <layer-tree-layer source="./access_2050.tif" expanded="0" id="access_2050_ca485a99_03bf_4a22_9a66_bfbef9673b67" name="access_2050" checked="Qt::Unchecked" providerKey="gdal">
+        <customproperties/>
+      </layer-tree-layer>
+      <layer-tree-layer source="./access_2040.tif" expanded="0" id="access_2040_4eec778c_90d8_461c_8e1e_85e70a42c593" name="access_2040" checked="Qt::Unchecked" providerKey="gdal">
+        <customproperties/>
+      </layer-tree-layer>
+      <layer-tree-layer source="./access_2030.tif" expanded="0" id="access_2030_6b1f5034_6391_44d5_b420_c97319bed73a" name="access_2030" checked="Qt::Unchecked" providerKey="gdal">
+        <customproperties/>
+      </layer-tree-layer>
+      <layer-tree-layer source="./access_2020.tif" expanded="0" id="access_2020_1e8da82e_c344_4354_bec4_df44e8468801" name="access_2020" checked="Qt::Unchecked" providerKey="gdal">
+        <customproperties/>
+      </layer-tree-layer>
+      <layer-tree-layer source="./access_2010.tif" expanded="0" id="access_2010_61041932_82de_43a3_b44c_7105414e98a9" name="access_2010" checked="Qt::Unchecked" providerKey="gdal">
+        <customproperties/>
+      </layer-tree-layer>
+    </layer-tree-group>
+    <layer-tree-group expanded="1" name="access_pop" checked="Qt::Checked">
+      <customproperties/>
+      <layer-tree-layer source="./access_pop_2050.tif" expanded="0" id="access_pop_2050_a27a7b51_ccce_4e6c_9293_e8afd96a362c" name="access_pop_2050" checked="Qt::Unchecked" providerKey="gdal">
+        <customproperties/>
+      </layer-tree-layer>
+      <layer-tree-layer source="./access_pop_2040.tif" expanded="0" id="access_pop_2040_2c551e48_b857_4d19_9656_c44d828f7b1c" name="access_pop_2040" checked="Qt::Unchecked" providerKey="gdal">
+        <customproperties/>
+      </layer-tree-layer>
+      <layer-tree-layer source="./access_pop_2030.tif" expanded="0" id="access_pop_2030_0104005d_a2ec_4db0_9d04_a07ccc56a0e0" name="access_pop_2030" checked="Qt::Unchecked" providerKey="gdal">
+        <customproperties/>
+      </layer-tree-layer>
+      <layer-tree-layer source="./access_pop_2020.tif" expanded="0" id="access_pop_2020_54e033af_2189_4a53_a414_8546d7b31cbe" name="access_pop_2020" checked="Qt::Unchecked" providerKey="gdal">
+        <customproperties/>
+      </layer-tree-layer>
+      <layer-tree-layer source="./access_pop_2010.tif" expanded="0" id="access_pop_2010_9a3fc668_7498_4df4_89de_522cc452a4bd" name="access_pop_2010" checked="Qt::Unchecked" providerKey="gdal">
+        <customproperties/>
+      </layer-tree-layer>
+    </layer-tree-group>
+    <layer-tree-group expanded="1" name="lcoe" checked="Qt::Checked">
+      <customproperties/>
+      <layer-tree-layer source="./pv_2010.tif" expanded="0" id="pv_2010_f893e158_ca83_45d6_936a_8cab2c147f45" name="pv_2010" checked="Qt::Unchecked" providerKey="gdal">
+        <customproperties/>
+      </layer-tree-layer>
+      <layer-tree-layer source="./pv_2020.tif" expanded="0" id="pv_2020_fd8f395e_e0c2_434c_b79c_988b80289cbf" name="pv_2020" checked="Qt::Unchecked" providerKey="gdal">
+        <customproperties/>
+      </layer-tree-layer>
+      <layer-tree-layer source="./pv_2030.tif" expanded="0" id="pv_2030_77456c0c_56a7_4420_9831_83c210498bf9" name="pv_2030" checked="Qt::Unchecked" providerKey="gdal">
+        <customproperties/>
+      </layer-tree-layer>
+      <layer-tree-layer source="./pv_2040.tif" expanded="0" id="pv_2040_6ef9f8f1_4aa6_482f_be6b_a7f1b75b2548" name="pv_2040" checked="Qt::Unchecked" providerKey="gdal">
+        <customproperties/>
+      </layer-tree-layer>
+      <layer-tree-layer source="./pv_2050.tif" expanded="0" id="pv_2050_1903fed4_a20b_450a_9289_6149a6654ed6" name="pv_2050" checked="Qt::Checked" providerKey="gdal">
+        <customproperties/>
+      </layer-tree-layer>
+      <layer-tree-layer source="./hy.TIF" expanded="0" id="hy_f85613d5_a569_49d0_876f_e8be23cec5de" name="hy" checked="Qt::Unchecked" providerKey="gdal">
+        <customproperties/>
+      </layer-tree-layer>
+      <layer-tree-layer source="./hy9.TIF" expanded="0" id="hy9_e40c997b_8d87_4a4b_8323_7a0fa25a27ec" name="hy9" checked="Qt::Unchecked" providerKey="gdal">
+        <customproperties/>
+      </layer-tree-layer>
+      <layer-tree-layer source="./di.tif" expanded="0" id="di_3336a5a4_fef1_4748_a3e2_51743af1e523" name="di" checked="Qt::Unchecked" providerKey="gdal">
+        <customproperties/>
+      </layer-tree-layer>
+      <layer-tree-layer source="./di9.tif" expanded="0" id="di9_bdc19453_11b3_4911_b2f1_c72f9628d90f" name="di9" checked="Qt::Unchecked" providerKey="gdal">
+        <customproperties/>
+      </layer-tree-layer>
+    </layer-tree-group>
+    <layer-tree-group expanded="1" name="pop" checked="Qt::Checked">
+      <customproperties/>
+      <layer-tree-layer source="./pop_norm_2.tif" expanded="0" id="pop_norm_2_d15f2904_036f_4af8_a5af_394c5f795f7b" name="pop_norm_2" checked="Qt::Unchecked" providerKey="gdal">
+        <customproperties/>
+      </layer-tree-layer>
+      <layer-tree-layer source="./pop_norm_1.tif" expanded="0" id="pop_norm_1_bf7f2fa0_b22a_40af_929a_285eac3d5893" name="pop_norm_1" checked="Qt::Unchecked" providerKey="gdal">
+        <customproperties/>
+      </layer-tree-layer>
+      <layer-tree-layer source="./pop_tot.tif" expanded="0" id="pop_tot_6cdf2797_dde3_413f_a21a_16227de19df8" name="pop_tot" checked="Qt::Unchecked" providerKey="gdal">
+        <customproperties/>
+      </layer-tree-layer>
+      <layer-tree-layer source="./pop_prj_pos_align.tif" expanded="0" id="pop_prj_pos_align_30f50847_7e1c_43d0_bc3f_53e255e4cdca" name="pop_prj_pos_align" checked="Qt::Unchecked" providerKey="gdal">
+        <customproperties/>
+      </layer-tree-layer>
+      <layer-tree-layer source="./pop_prj_pos.tif" expanded="0" id="pop_prj_pos_15e6123d_42db_4883_9281_fc2ba211caca" name="pop_prj_pos" checked="Qt::Unchecked" providerKey="gdal">
+        <customproperties/>
+      </layer-tree-layer>
+      <layer-tree-layer source="./pop_prj.tif" expanded="0" id="pop_prj_0904c550_6bfe_44d8_b993_fa86c67459da" name="pop_prj" checked="Qt::Unchecked" providerKey="gdal">
+        <customproperties/>
+      </layer-tree-layer>
+      <layer-tree-layer source="../pp_afr.tif" expanded="0" id="pp_afr_e8e3fd9c_b3dc_483c_901b_f5264ac34271" name="pp_afr" checked="Qt::Unchecked" providerKey="gdal">
+        <customproperties/>
+      </layer-tree-layer>
+    </layer-tree-group>
+    <layer-tree-layer source="./zero.tif" expanded="0" id="zero_a6f2d822_a475_49d6_91fa_3742d1ec8f69" name="zero" checked="Qt::Unchecked" providerKey="gdal">
+      <customproperties/>
+    </layer-tree-layer>
+    <custom-order enabled="0">
+      <item>pp_afr_e8e3fd9c_b3dc_483c_901b_f5264ac34271</item>
+      <item>pv_2010_f893e158_ca83_45d6_936a_8cab2c147f45</item>
+      <item>pv_2020_fd8f395e_e0c2_434c_b79c_988b80289cbf</item>
+      <item>pv_2030_77456c0c_56a7_4420_9831_83c210498bf9</item>
+      <item>pv_2040_6ef9f8f1_4aa6_482f_be6b_a7f1b75b2548</item>
+      <item>pv_2050_1903fed4_a20b_450a_9289_6149a6654ed6</item>
+      <item>hy_f85613d5_a569_49d0_876f_e8be23cec5de</item>
+      <item>zero_a6f2d822_a475_49d6_91fa_3742d1ec8f69</item>
+      <item>di_3336a5a4_fef1_4748_a3e2_51743af1e523</item>
+      <item>hy9_e40c997b_8d87_4a4b_8323_7a0fa25a27ec</item>
+      <item>di9_bdc19453_11b3_4911_b2f1_c72f9628d90f</item>
+      <item>pop_prj_0904c550_6bfe_44d8_b993_fa86c67459da</item>
+      <item>wtp_vec_704fe842_eb4b_4d96_a6ba_1b95961717b4</item>
+      <item>wtp_new_e65d8f09_39a1_4dee_977b_b0bbfde2e7fc</item>
+      <item>pop_tot_6cdf2797_dde3_413f_a21a_16227de19df8</item>
+      <item>pop_norm_1_bf7f2fa0_b22a_40af_929a_285eac3d5893</item>
+      <item>pop_norm_2_d15f2904_036f_4af8_a5af_394c5f795f7b</item>
+      <item>pop_prj_pos_15e6123d_42db_4883_9281_fc2ba211caca</item>
+      <item>pop_prj_pos_align_30f50847_7e1c_43d0_bc3f_53e255e4cdca</item>
+      <item>wtp_2010_151a1812_861a_47c0_b952_2a599acdaf39</item>
+      <item>wtp_2020_5d608978_4126_455c_ac83_37ede24267c5</item>
+      <item>wtp_2030_721732cf_aa4f_4f14_afcb_b24a058ce10c</item>
+      <item>wtp_2040_23a30cc6_d84d_4586_81a4_2b10c72db3bd</item>
+      <item>wtp_2050_de26a376_1474_4fc8_b7bb_19360166ba17</item>
+      <item>access_2020_1e8da82e_c344_4354_bec4_df44e8468801</item>
+      <item>access_2030_6b1f5034_6391_44d5_b420_c97319bed73a</item>
+      <item>access_2040_4eec778c_90d8_461c_8e1e_85e70a42c593</item>
+      <item>access_2050_ca485a99_03bf_4a22_9a66_bfbef9673b67</item>
+      <item>access_2010_61041932_82de_43a3_b44c_7105414e98a9</item>
+      <item>access_pop_2010_9a3fc668_7498_4df4_89de_522cc452a4bd</item>
+      <item>access_pop_2020_54e033af_2189_4a53_a414_8546d7b31cbe</item>
+      <item>access_pop_2030_0104005d_a2ec_4db0_9d04_a07ccc56a0e0</item>
+      <item>access_pop_2040_2c551e48_b857_4d19_9656_c44d828f7b1c</item>
+      <item>access_pop_2050_a27a7b51_ccce_4e6c_9293_e8afd96a362c</item>
+    </custom-order>
+  </layer-tree-group>
+  <snapping-settings mode="2" tolerance="12" intersection-snapping="0" enabled="0" unit="1" type="1">
+    <individual-layer-settings>
+      <layer-setting tolerance="12" units="1" id="wtp_vec_704fe842_eb4b_4d96_a6ba_1b95961717b4" enabled="0" type="1"/>
+      <layer-setting tolerance="12" units="1" id="wtp_new_e65d8f09_39a1_4dee_977b_b0bbfde2e7fc" enabled="0" type="1"/>
+    </individual-layer-settings>
+  </snapping-settings>
+  <relations/>
+  <mapcanvas annotationsVisible="1" name="theMapCanvas">
+    <units>degrees</units>
+    <extent>
+      <xmin>-39.53165104329324464</xmin>
+      <ymin>-49.72526777764123551</ymin>
+      <xmax>65.64963513328441991</xmax>
+      <ymax>39.96312200846547569</ymax>
+    </extent>
+    <rotation>0</rotation>
+    <destinationsrs>
+      <spatialrefsys>
+        <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+        <srsid>3452</srsid>
+        <srid>4326</srid>
+        <authid>EPSG:4326</authid>
+        <description>WGS 84</description>
+        <projectionacronym>longlat</projectionacronym>
+        <ellipsoidacronym>WGS84</ellipsoidacronym>
+        <geographicflag>true</geographicflag>
+      </spatialrefsys>
+    </destinationsrs>
+    <rendermaptile>0</rendermaptile>
+  </mapcanvas>
+  <legend updateDrawingOrder="true">
+    <legendlayer showFeatureCount="0" open="true" drawingOrder="-1" checked="Qt::Unchecked" name="wtp_new">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile isInOverview="0" layerid="wtp_new_e65d8f09_39a1_4dee_977b_b0bbfde2e7fc" visible="0"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer showFeatureCount="0" open="true" drawingOrder="-1" checked="Qt::Checked" name="wtp_vec">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile isInOverview="0" layerid="wtp_vec_704fe842_eb4b_4d96_a6ba_1b95961717b4" visible="1"/>
+      </filegroup>
+    </legendlayer>
+    <legendgroup open="false" name="WTP" checked="Qt::Checked">
+      <legendlayer showFeatureCount="0" open="false" drawingOrder="-1" checked="Qt::Unchecked" name="wtp_2050">
+        <filegroup open="false" hidden="false">
+          <legendlayerfile isInOverview="0" layerid="wtp_2050_de26a376_1474_4fc8_b7bb_19360166ba17" visible="0"/>
+        </filegroup>
+      </legendlayer>
+      <legendlayer showFeatureCount="0" open="false" drawingOrder="-1" checked="Qt::Unchecked" name="wtp_2040">
+        <filegroup open="false" hidden="false">
+          <legendlayerfile isInOverview="0" layerid="wtp_2040_23a30cc6_d84d_4586_81a4_2b10c72db3bd" visible="0"/>
+        </filegroup>
+      </legendlayer>
+      <legendlayer showFeatureCount="0" open="false" drawingOrder="-1" checked="Qt::Unchecked" name="wtp_2030">
+        <filegroup open="false" hidden="false">
+          <legendlayerfile isInOverview="0" layerid="wtp_2030_721732cf_aa4f_4f14_afcb_b24a058ce10c" visible="0"/>
+        </filegroup>
+      </legendlayer>
+      <legendlayer showFeatureCount="0" open="false" drawingOrder="-1" checked="Qt::Unchecked" name="wtp_2020">
+        <filegroup open="false" hidden="false">
+          <legendlayerfile isInOverview="0" layerid="wtp_2020_5d608978_4126_455c_ac83_37ede24267c5" visible="0"/>
+        </filegroup>
+      </legendlayer>
+      <legendlayer showFeatureCount="0" open="false" drawingOrder="-1" checked="Qt::Unchecked" name="wtp_2010">
+        <filegroup open="false" hidden="false">
+          <legendlayerfile isInOverview="0" layerid="wtp_2010_151a1812_861a_47c0_b952_2a599acdaf39" visible="0"/>
+        </filegroup>
+      </legendlayer>
+    </legendgroup>
+    <legendgroup open="true" name="access_bin" checked="Qt::Checked">
+      <legendlayer showFeatureCount="0" open="false" drawingOrder="-1" checked="Qt::Unchecked" name="access_2050">
+        <filegroup open="false" hidden="false">
+          <legendlayerfile isInOverview="0" layerid="access_2050_ca485a99_03bf_4a22_9a66_bfbef9673b67" visible="0"/>
+        </filegroup>
+      </legendlayer>
+      <legendlayer showFeatureCount="0" open="false" drawingOrder="-1" checked="Qt::Unchecked" name="access_2040">
+        <filegroup open="false" hidden="false">
+          <legendlayerfile isInOverview="0" layerid="access_2040_4eec778c_90d8_461c_8e1e_85e70a42c593" visible="0"/>
+        </filegroup>
+      </legendlayer>
+      <legendlayer showFeatureCount="0" open="false" drawingOrder="-1" checked="Qt::Unchecked" name="access_2030">
+        <filegroup open="false" hidden="false">
+          <legendlayerfile isInOverview="0" layerid="access_2030_6b1f5034_6391_44d5_b420_c97319bed73a" visible="0"/>
+        </filegroup>
+      </legendlayer>
+      <legendlayer showFeatureCount="0" open="false" drawingOrder="-1" checked="Qt::Unchecked" name="access_2020">
+        <filegroup open="false" hidden="false">
+          <legendlayerfile isInOverview="0" layerid="access_2020_1e8da82e_c344_4354_bec4_df44e8468801" visible="0"/>
+        </filegroup>
+      </legendlayer>
+      <legendlayer showFeatureCount="0" open="false" drawingOrder="-1" checked="Qt::Unchecked" name="access_2010">
+        <filegroup open="false" hidden="false">
+          <legendlayerfile isInOverview="0" layerid="access_2010_61041932_82de_43a3_b44c_7105414e98a9" visible="0"/>
+        </filegroup>
+      </legendlayer>
+    </legendgroup>
+    <legendgroup open="true" name="access_pop" checked="Qt::Checked">
+      <legendlayer showFeatureCount="0" open="false" drawingOrder="-1" checked="Qt::Unchecked" name="access_pop_2050">
+        <filegroup open="false" hidden="false">
+          <legendlayerfile isInOverview="0" layerid="access_pop_2050_a27a7b51_ccce_4e6c_9293_e8afd96a362c" visible="0"/>
+        </filegroup>
+      </legendlayer>
+      <legendlayer showFeatureCount="0" open="false" drawingOrder="-1" checked="Qt::Unchecked" name="access_pop_2040">
+        <filegroup open="false" hidden="false">
+          <legendlayerfile isInOverview="0" layerid="access_pop_2040_2c551e48_b857_4d19_9656_c44d828f7b1c" visible="0"/>
+        </filegroup>
+      </legendlayer>
+      <legendlayer showFeatureCount="0" open="false" drawingOrder="-1" checked="Qt::Unchecked" name="access_pop_2030">
+        <filegroup open="false" hidden="false">
+          <legendlayerfile isInOverview="0" layerid="access_pop_2030_0104005d_a2ec_4db0_9d04_a07ccc56a0e0" visible="0"/>
+        </filegroup>
+      </legendlayer>
+      <legendlayer showFeatureCount="0" open="false" drawingOrder="-1" checked="Qt::Unchecked" name="access_pop_2020">
+        <filegroup open="false" hidden="false">
+          <legendlayerfile isInOverview="0" layerid="access_pop_2020_54e033af_2189_4a53_a414_8546d7b31cbe" visible="0"/>
+        </filegroup>
+      </legendlayer>
+      <legendlayer showFeatureCount="0" open="false" drawingOrder="-1" checked="Qt::Unchecked" name="access_pop_2010">
+        <filegroup open="false" hidden="false">
+          <legendlayerfile isInOverview="0" layerid="access_pop_2010_9a3fc668_7498_4df4_89de_522cc452a4bd" visible="0"/>
+        </filegroup>
+      </legendlayer>
+    </legendgroup>
+    <legendgroup open="true" name="lcoe" checked="Qt::Checked">
+      <legendlayer showFeatureCount="0" open="false" drawingOrder="-1" checked="Qt::Unchecked" name="pv_2010">
+        <filegroup open="false" hidden="false">
+          <legendlayerfile isInOverview="0" layerid="pv_2010_f893e158_ca83_45d6_936a_8cab2c147f45" visible="0"/>
+        </filegroup>
+      </legendlayer>
+      <legendlayer showFeatureCount="0" open="false" drawingOrder="-1" checked="Qt::Unchecked" name="pv_2020">
+        <filegroup open="false" hidden="false">
+          <legendlayerfile isInOverview="0" layerid="pv_2020_fd8f395e_e0c2_434c_b79c_988b80289cbf" visible="0"/>
+        </filegroup>
+      </legendlayer>
+      <legendlayer showFeatureCount="0" open="false" drawingOrder="-1" checked="Qt::Unchecked" name="pv_2030">
+        <filegroup open="false" hidden="false">
+          <legendlayerfile isInOverview="0" layerid="pv_2030_77456c0c_56a7_4420_9831_83c210498bf9" visible="0"/>
+        </filegroup>
+      </legendlayer>
+      <legendlayer showFeatureCount="0" open="false" drawingOrder="-1" checked="Qt::Unchecked" name="pv_2040">
+        <filegroup open="false" hidden="false">
+          <legendlayerfile isInOverview="0" layerid="pv_2040_6ef9f8f1_4aa6_482f_be6b_a7f1b75b2548" visible="0"/>
+        </filegroup>
+      </legendlayer>
+      <legendlayer showFeatureCount="0" open="false" drawingOrder="-1" checked="Qt::Checked" name="pv_2050">
+        <filegroup open="false" hidden="false">
+          <legendlayerfile isInOverview="0" layerid="pv_2050_1903fed4_a20b_450a_9289_6149a6654ed6" visible="1"/>
+        </filegroup>
+      </legendlayer>
+      <legendlayer showFeatureCount="0" open="false" drawingOrder="-1" checked="Qt::Unchecked" name="hy">
+        <filegroup open="false" hidden="false">
+          <legendlayerfile isInOverview="0" layerid="hy_f85613d5_a569_49d0_876f_e8be23cec5de" visible="0"/>
+        </filegroup>
+      </legendlayer>
+      <legendlayer showFeatureCount="0" open="false" drawingOrder="-1" checked="Qt::Unchecked" name="hy9">
+        <filegroup open="false" hidden="false">
+          <legendlayerfile isInOverview="0" layerid="hy9_e40c997b_8d87_4a4b_8323_7a0fa25a27ec" visible="0"/>
+        </filegroup>
+      </legendlayer>
+      <legendlayer showFeatureCount="0" open="false" drawingOrder="-1" checked="Qt::Unchecked" name="di">
+        <filegroup open="false" hidden="false">
+          <legendlayerfile isInOverview="0" layerid="di_3336a5a4_fef1_4748_a3e2_51743af1e523" visible="0"/>
+        </filegroup>
+      </legendlayer>
+      <legendlayer showFeatureCount="0" open="false" drawingOrder="-1" checked="Qt::Unchecked" name="di9">
+        <filegroup open="false" hidden="false">
+          <legendlayerfile isInOverview="0" layerid="di9_bdc19453_11b3_4911_b2f1_c72f9628d90f" visible="0"/>
+        </filegroup>
+      </legendlayer>
+    </legendgroup>
+    <legendgroup open="true" name="pop" checked="Qt::Checked">
+      <legendlayer showFeatureCount="0" open="false" drawingOrder="-1" checked="Qt::Unchecked" name="pop_norm_2">
+        <filegroup open="false" hidden="false">
+          <legendlayerfile isInOverview="0" layerid="pop_norm_2_d15f2904_036f_4af8_a5af_394c5f795f7b" visible="0"/>
+        </filegroup>
+      </legendlayer>
+      <legendlayer showFeatureCount="0" open="false" drawingOrder="-1" checked="Qt::Unchecked" name="pop_norm_1">
+        <filegroup open="false" hidden="false">
+          <legendlayerfile isInOverview="0" layerid="pop_norm_1_bf7f2fa0_b22a_40af_929a_285eac3d5893" visible="0"/>
+        </filegroup>
+      </legendlayer>
+      <legendlayer showFeatureCount="0" open="false" drawingOrder="-1" checked="Qt::Unchecked" name="pop_tot">
+        <filegroup open="false" hidden="false">
+          <legendlayerfile isInOverview="0" layerid="pop_tot_6cdf2797_dde3_413f_a21a_16227de19df8" visible="0"/>
+        </filegroup>
+      </legendlayer>
+      <legendlayer showFeatureCount="0" open="false" drawingOrder="-1" checked="Qt::Unchecked" name="pop_prj_pos_align">
+        <filegroup open="false" hidden="false">
+          <legendlayerfile isInOverview="0" layerid="pop_prj_pos_align_30f50847_7e1c_43d0_bc3f_53e255e4cdca" visible="0"/>
+        </filegroup>
+      </legendlayer>
+      <legendlayer showFeatureCount="0" open="false" drawingOrder="-1" checked="Qt::Unchecked" name="pop_prj_pos">
+        <filegroup open="false" hidden="false">
+          <legendlayerfile isInOverview="0" layerid="pop_prj_pos_15e6123d_42db_4883_9281_fc2ba211caca" visible="0"/>
+        </filegroup>
+      </legendlayer>
+      <legendlayer showFeatureCount="0" open="false" drawingOrder="-1" checked="Qt::Unchecked" name="pop_prj">
+        <filegroup open="false" hidden="false">
+          <legendlayerfile isInOverview="0" layerid="pop_prj_0904c550_6bfe_44d8_b993_fa86c67459da" visible="0"/>
+        </filegroup>
+      </legendlayer>
+      <legendlayer showFeatureCount="0" open="false" drawingOrder="-1" checked="Qt::Unchecked" name="pp_afr">
+        <filegroup open="false" hidden="false">
+          <legendlayerfile isInOverview="0" layerid="pp_afr_e8e3fd9c_b3dc_483c_901b_f5264ac34271" visible="0"/>
+        </filegroup>
+      </legendlayer>
+    </legendgroup>
+    <legendlayer showFeatureCount="0" open="false" drawingOrder="-1" checked="Qt::Unchecked" name="zero">
+      <filegroup open="false" hidden="false">
+        <legendlayerfile isInOverview="0" layerid="zero_a6f2d822_a475_49d6_91fa_3742d1ec8f69" visible="0"/>
+      </filegroup>
+    </legendlayer>
+  </legend>
+  <mapViewDocks/>
+  <mapViewDocks3D/>
+  <projectlayers>
+    <maplayer maxScale="0" autoRefreshTime="0" hasScaleBasedVisibilityFlag="0" refreshOnNotifyEnabled="0" autoRefreshEnabled="0" refreshOnNotifyMessage="" minScale="1e+8" type="raster">
+      <extent>
+        <xmin>-270000</xmin>
+        <ymin>-655000</ymin>
+        <xmax>8485000</xmax>
+        <ymax>7345000</ymax>
+      </extent>
+      <id>access_2010_61041932_82de_43a3_b44c_7105414e98a9</id>
+      <datasource>./access_2010.tif</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>access_2010</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=laea +lat_0=0 +lon_0=18 +x_0=4321000 +y_0=3210000 +a=6378137 +b=6378137 +units=m +no_defs</proj4>
+          <srsid>100025</srsid>
+          <srid>0</srid>
+          <authid>USER:100025</authid>
+          <description> * Generated CRS (+proj=laea +lat_0=0 +lon_0=18 +x_0=4321000 +y_0=3210000 +a=6378137 +b=6378137 +units=m +no_defs)</description>
+          <projectionacronym>laea</projectionacronym>
+          <ellipsoidacronym></ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>true</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+        <links/>
+      </resourceMetadata>
+      <customproperties>
+        <property value="Value" key="identify/format"/>
+      </customproperties>
+      <provider>gdal</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="1"/>
+      </noData>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <pipe>
+        <rasterrenderer gradient="BlackToWhite" grayBand="1" opacity="1" type="singlebandgray" alphaBand="-1">
+          <rasterTransparency/>
+          <minMaxOrigin>
+            <limits>MinMax</limits>
+            <extent>WholeRaster</extent>
+            <statAccuracy>Estimated</statAccuracy>
+            <cumulativeCutLower>0.02</cumulativeCutLower>
+            <cumulativeCutUpper>0.98</cumulativeCutUpper>
+            <stdDevFactor>2</stdDevFactor>
+          </minMaxOrigin>
+          <contrastEnhancement>
+            <minValue>0</minValue>
+            <maxValue>1</maxValue>
+            <algorithm>StretchToMinimumMaximum</algorithm>
+          </contrastEnhancement>
+        </rasterrenderer>
+        <brightnesscontrast brightness="0" contrast="0"/>
+        <huesaturation colorizeStrength="100" colorizeOn="0" colorizeBlue="128" saturation="0" colorizeGreen="128" colorizeRed="255" grayscaleMode="0"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer maxScale="0" autoRefreshTime="0" hasScaleBasedVisibilityFlag="0" refreshOnNotifyEnabled="0" autoRefreshEnabled="0" refreshOnNotifyMessage="" minScale="1e+8" type="raster">
+      <extent>
+        <xmin>-270000</xmin>
+        <ymin>-655000</ymin>
+        <xmax>8485000</xmax>
+        <ymax>7345000</ymax>
+      </extent>
+      <id>access_2020_1e8da82e_c344_4354_bec4_df44e8468801</id>
+      <datasource>./access_2020.tif</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>access_2020</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=laea +lat_0=0 +lon_0=18 +x_0=4321000 +y_0=3210000 +a=6378137 +b=6378137 +units=m +no_defs</proj4>
+          <srsid>100025</srsid>
+          <srid>0</srid>
+          <authid>USER:100025</authid>
+          <description> * Generated CRS (+proj=laea +lat_0=0 +lon_0=18 +x_0=4321000 +y_0=3210000 +a=6378137 +b=6378137 +units=m +no_defs)</description>
+          <projectionacronym>laea</projectionacronym>
+          <ellipsoidacronym></ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+        <links/>
+      </resourceMetadata>
+      <customproperties>
+        <property value="Value" key="identify/format"/>
+      </customproperties>
+      <provider>gdal</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="1"/>
+      </noData>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <pipe>
+        <rasterrenderer gradient="BlackToWhite" grayBand="1" opacity="1" type="singlebandgray" alphaBand="-1">
+          <rasterTransparency/>
+          <minMaxOrigin>
+            <limits>MinMax</limits>
+            <extent>WholeRaster</extent>
+            <statAccuracy>Estimated</statAccuracy>
+            <cumulativeCutLower>0.02</cumulativeCutLower>
+            <cumulativeCutUpper>0.98</cumulativeCutUpper>
+            <stdDevFactor>2</stdDevFactor>
+          </minMaxOrigin>
+          <contrastEnhancement>
+            <minValue>0</minValue>
+            <maxValue>1</maxValue>
+            <algorithm>StretchToMinimumMaximum</algorithm>
+          </contrastEnhancement>
+        </rasterrenderer>
+        <brightnesscontrast brightness="0" contrast="0"/>
+        <huesaturation colorizeStrength="100" colorizeOn="0" colorizeBlue="128" saturation="0" colorizeGreen="128" colorizeRed="255" grayscaleMode="0"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer maxScale="0" autoRefreshTime="0" hasScaleBasedVisibilityFlag="0" refreshOnNotifyEnabled="0" autoRefreshEnabled="0" refreshOnNotifyMessage="" minScale="1e+8" type="raster">
+      <extent>
+        <xmin>-270000</xmin>
+        <ymin>-655000</ymin>
+        <xmax>8485000</xmax>
+        <ymax>7345000</ymax>
+      </extent>
+      <id>access_2030_6b1f5034_6391_44d5_b420_c97319bed73a</id>
+      <datasource>./access_2030.tif</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>access_2030</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=laea +lat_0=0 +lon_0=18 +x_0=4321000 +y_0=3210000 +a=6378137 +b=6378137 +units=m +no_defs</proj4>
+          <srsid>100025</srsid>
+          <srid>0</srid>
+          <authid>USER:100025</authid>
+          <description> * Generated CRS (+proj=laea +lat_0=0 +lon_0=18 +x_0=4321000 +y_0=3210000 +a=6378137 +b=6378137 +units=m +no_defs)</description>
+          <projectionacronym>laea</projectionacronym>
+          <ellipsoidacronym></ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+        <links/>
+      </resourceMetadata>
+      <customproperties>
+        <property value="Value" key="identify/format"/>
+      </customproperties>
+      <provider>gdal</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="1"/>
+      </noData>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <pipe>
+        <rasterrenderer gradient="BlackToWhite" grayBand="1" opacity="1" type="singlebandgray" alphaBand="-1">
+          <rasterTransparency/>
+          <minMaxOrigin>
+            <limits>MinMax</limits>
+            <extent>WholeRaster</extent>
+            <statAccuracy>Estimated</statAccuracy>
+            <cumulativeCutLower>0.02</cumulativeCutLower>
+            <cumulativeCutUpper>0.98</cumulativeCutUpper>
+            <stdDevFactor>2</stdDevFactor>
+          </minMaxOrigin>
+          <contrastEnhancement>
+            <minValue>0</minValue>
+            <maxValue>1</maxValue>
+            <algorithm>StretchToMinimumMaximum</algorithm>
+          </contrastEnhancement>
+        </rasterrenderer>
+        <brightnesscontrast brightness="0" contrast="0"/>
+        <huesaturation colorizeStrength="100" colorizeOn="0" colorizeBlue="128" saturation="0" colorizeGreen="128" colorizeRed="255" grayscaleMode="0"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer maxScale="0" autoRefreshTime="0" hasScaleBasedVisibilityFlag="0" refreshOnNotifyEnabled="0" autoRefreshEnabled="0" refreshOnNotifyMessage="" minScale="1e+8" type="raster">
+      <extent>
+        <xmin>-270000</xmin>
+        <ymin>-655000</ymin>
+        <xmax>8485000</xmax>
+        <ymax>7345000</ymax>
+      </extent>
+      <id>access_2040_4eec778c_90d8_461c_8e1e_85e70a42c593</id>
+      <datasource>./access_2040.tif</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>access_2040</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=laea +lat_0=0 +lon_0=18 +x_0=4321000 +y_0=3210000 +a=6378137 +b=6378137 +units=m +no_defs</proj4>
+          <srsid>100025</srsid>
+          <srid>0</srid>
+          <authid>USER:100025</authid>
+          <description> * Generated CRS (+proj=laea +lat_0=0 +lon_0=18 +x_0=4321000 +y_0=3210000 +a=6378137 +b=6378137 +units=m +no_defs)</description>
+          <projectionacronym>laea</projectionacronym>
+          <ellipsoidacronym></ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+        <links/>
+      </resourceMetadata>
+      <customproperties>
+        <property value="Value" key="identify/format"/>
+      </customproperties>
+      <provider>gdal</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="1"/>
+      </noData>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <pipe>
+        <rasterrenderer gradient="BlackToWhite" grayBand="1" opacity="1" type="singlebandgray" alphaBand="-1">
+          <rasterTransparency/>
+          <minMaxOrigin>
+            <limits>MinMax</limits>
+            <extent>WholeRaster</extent>
+            <statAccuracy>Estimated</statAccuracy>
+            <cumulativeCutLower>0.02</cumulativeCutLower>
+            <cumulativeCutUpper>0.98</cumulativeCutUpper>
+            <stdDevFactor>2</stdDevFactor>
+          </minMaxOrigin>
+          <contrastEnhancement>
+            <minValue>0</minValue>
+            <maxValue>1</maxValue>
+            <algorithm>StretchToMinimumMaximum</algorithm>
+          </contrastEnhancement>
+        </rasterrenderer>
+        <brightnesscontrast brightness="0" contrast="0"/>
+        <huesaturation colorizeStrength="100" colorizeOn="0" colorizeBlue="128" saturation="0" colorizeGreen="128" colorizeRed="255" grayscaleMode="0"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer maxScale="0" autoRefreshTime="0" hasScaleBasedVisibilityFlag="0" refreshOnNotifyEnabled="0" autoRefreshEnabled="0" refreshOnNotifyMessage="" minScale="1e+8" type="raster">
+      <extent>
+        <xmin>-270000</xmin>
+        <ymin>-655000</ymin>
+        <xmax>8485000</xmax>
+        <ymax>7345000</ymax>
+      </extent>
+      <id>access_2050_ca485a99_03bf_4a22_9a66_bfbef9673b67</id>
+      <datasource>./access_2050.tif</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>access_2050</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=laea +lat_0=0 +lon_0=18 +x_0=4321000 +y_0=3210000 +a=6378137 +b=6378137 +units=m +no_defs</proj4>
+          <srsid>100025</srsid>
+          <srid>0</srid>
+          <authid>USER:100025</authid>
+          <description> * Generated CRS (+proj=laea +lat_0=0 +lon_0=18 +x_0=4321000 +y_0=3210000 +a=6378137 +b=6378137 +units=m +no_defs)</description>
+          <projectionacronym>laea</projectionacronym>
+          <ellipsoidacronym></ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+        <links/>
+      </resourceMetadata>
+      <customproperties>
+        <property value="Value" key="identify/format"/>
+      </customproperties>
+      <provider>gdal</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="1"/>
+      </noData>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <pipe>
+        <rasterrenderer gradient="BlackToWhite" grayBand="1" opacity="1" type="singlebandgray" alphaBand="-1">
+          <rasterTransparency/>
+          <minMaxOrigin>
+            <limits>MinMax</limits>
+            <extent>WholeRaster</extent>
+            <statAccuracy>Estimated</statAccuracy>
+            <cumulativeCutLower>0.02</cumulativeCutLower>
+            <cumulativeCutUpper>0.98</cumulativeCutUpper>
+            <stdDevFactor>2</stdDevFactor>
+          </minMaxOrigin>
+          <contrastEnhancement>
+            <minValue>0</minValue>
+            <maxValue>1</maxValue>
+            <algorithm>StretchToMinimumMaximum</algorithm>
+          </contrastEnhancement>
+        </rasterrenderer>
+        <brightnesscontrast brightness="0" contrast="0"/>
+        <huesaturation colorizeStrength="100" colorizeOn="0" colorizeBlue="128" saturation="0" colorizeGreen="128" colorizeRed="255" grayscaleMode="0"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer maxScale="0" autoRefreshTime="0" hasScaleBasedVisibilityFlag="0" refreshOnNotifyEnabled="0" autoRefreshEnabled="0" refreshOnNotifyMessage="" minScale="1e+8" type="raster">
+      <extent>
+        <xmin>-270000</xmin>
+        <ymin>-655000</ymin>
+        <xmax>8485000</xmax>
+        <ymax>7345000</ymax>
+      </extent>
+      <id>access_pop_2010_9a3fc668_7498_4df4_89de_522cc452a4bd</id>
+      <datasource>./access_pop_2010.tif</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>access_pop_2010</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=laea +lat_0=0 +lon_0=18 +x_0=4321000 +y_0=3210000 +a=6378137 +b=6378137 +units=m +no_defs</proj4>
+          <srsid>100025</srsid>
+          <srid>0</srid>
+          <authid>USER:100025</authid>
+          <description> * Generated CRS (+proj=laea +lat_0=0 +lon_0=18 +x_0=4321000 +y_0=3210000 +a=6378137 +b=6378137 +units=m +no_defs)</description>
+          <projectionacronym>laea</projectionacronym>
+          <ellipsoidacronym></ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent>
+          <spatial crs="" maxx="0" maxz="0" minz="0" maxy="0" miny="0" minx="0" dimensions="2"/>
+          <temporal>
+            <period>
+              <start></start>
+              <end></end>
+            </period>
+          </temporal>
+        </extent>
+        <contact>
+          <name></name>
+          <organization></organization>
+          <position></position>
+          <voice></voice>
+          <fax></fax>
+          <email></email>
+          <role></role>
+        </contact>
+        <links/>
+      </resourceMetadata>
+      <customproperties>
+        <property value="false" key="WMSBackgroundLayer"/>
+        <property value="false" key="WMSPublishDataSourceUrl"/>
+        <property value="0" key="embeddedWidgets/count"/>
+        <property value="Value" key="identify/format"/>
+      </customproperties>
+      <provider>gdal</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="1"/>
+      </noData>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <pipe>
+        <rasterrenderer classificationMin="0" band="1" classificationMax="50" opacity="1" type="singlebandpseudocolor" alphaBand="-1">
+          <rasterTransparency/>
+          <minMaxOrigin>
+            <limits>None</limits>
+            <extent>WholeRaster</extent>
+            <statAccuracy>Estimated</statAccuracy>
+            <cumulativeCutLower>0.02</cumulativeCutLower>
+            <cumulativeCutUpper>0.98</cumulativeCutUpper>
+            <stdDevFactor>2</stdDevFactor>
+          </minMaxOrigin>
+          <rastershader>
+            <colorrampshader classificationMode="1" colorRampType="INTERPOLATED" clip="0">
+              <colorramp name="[source]" type="gradient">
+                <prop v="255,255,255,255" k="color1"/>
+                <prop v="0,85,0,255" k="color2"/>
+                <prop v="0" k="discrete"/>
+                <prop v="gradient" k="rampType"/>
+              </colorramp>
+              <item label="0" alpha="255" value="0" color="#ffffff"/>
+              <item label="50" alpha="255" value="50" color="#005500"/>
+            </colorrampshader>
+          </rastershader>
+        </rasterrenderer>
+        <brightnesscontrast brightness="0" contrast="0"/>
+        <huesaturation colorizeStrength="100" colorizeOn="0" colorizeBlue="128" saturation="0" colorizeGreen="128" colorizeRed="255" grayscaleMode="0"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer maxScale="0" autoRefreshTime="0" hasScaleBasedVisibilityFlag="0" refreshOnNotifyEnabled="0" autoRefreshEnabled="0" refreshOnNotifyMessage="" minScale="1e+8" type="raster">
+      <extent>
+        <xmin>-270000</xmin>
+        <ymin>-655000</ymin>
+        <xmax>8485000</xmax>
+        <ymax>7345000</ymax>
+      </extent>
+      <id>access_pop_2020_54e033af_2189_4a53_a414_8546d7b31cbe</id>
+      <datasource>./access_pop_2020.tif</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>access_pop_2020</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=laea +lat_0=0 +lon_0=18 +x_0=4321000 +y_0=3210000 +a=6378137 +b=6378137 +units=m +no_defs</proj4>
+          <srsid>100025</srsid>
+          <srid>0</srid>
+          <authid>USER:100025</authid>
+          <description> * Generated CRS (+proj=laea +lat_0=0 +lon_0=18 +x_0=4321000 +y_0=3210000 +a=6378137 +b=6378137 +units=m +no_defs)</description>
+          <projectionacronym>laea</projectionacronym>
+          <ellipsoidacronym></ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent>
+          <spatial crs="" maxx="0" maxz="0" minz="0" maxy="0" miny="0" minx="0" dimensions="2"/>
+          <temporal>
+            <period>
+              <start></start>
+              <end></end>
+            </period>
+          </temporal>
+        </extent>
+        <contact>
+          <name></name>
+          <organization></organization>
+          <position></position>
+          <voice></voice>
+          <fax></fax>
+          <email></email>
+          <role></role>
+        </contact>
+        <links/>
+      </resourceMetadata>
+      <customproperties>
+        <property value="false" key="WMSBackgroundLayer"/>
+        <property value="false" key="WMSPublishDataSourceUrl"/>
+        <property value="0" key="embeddedWidgets/count"/>
+        <property value="Value" key="identify/format"/>
+      </customproperties>
+      <provider>gdal</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="1"/>
+      </noData>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <pipe>
+        <rasterrenderer classificationMin="0" band="1" classificationMax="50" opacity="1" type="singlebandpseudocolor" alphaBand="-1">
+          <rasterTransparency/>
+          <minMaxOrigin>
+            <limits>None</limits>
+            <extent>WholeRaster</extent>
+            <statAccuracy>Estimated</statAccuracy>
+            <cumulativeCutLower>0.02</cumulativeCutLower>
+            <cumulativeCutUpper>0.98</cumulativeCutUpper>
+            <stdDevFactor>2</stdDevFactor>
+          </minMaxOrigin>
+          <rastershader>
+            <colorrampshader classificationMode="1" colorRampType="INTERPOLATED" clip="0">
+              <colorramp name="[source]" type="gradient">
+                <prop v="255,255,255,255" k="color1"/>
+                <prop v="0,85,0,255" k="color2"/>
+                <prop v="0" k="discrete"/>
+                <prop v="gradient" k="rampType"/>
+              </colorramp>
+              <item label="0" alpha="255" value="0" color="#ffffff"/>
+              <item label="50" alpha="255" value="50" color="#005500"/>
+            </colorrampshader>
+          </rastershader>
+        </rasterrenderer>
+        <brightnesscontrast brightness="0" contrast="0"/>
+        <huesaturation colorizeStrength="100" colorizeOn="0" colorizeBlue="128" saturation="0" colorizeGreen="128" colorizeRed="255" grayscaleMode="0"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer maxScale="0" autoRefreshTime="0" hasScaleBasedVisibilityFlag="0" refreshOnNotifyEnabled="0" autoRefreshEnabled="0" refreshOnNotifyMessage="" minScale="1e+8" type="raster">
+      <extent>
+        <xmin>-270000</xmin>
+        <ymin>-655000</ymin>
+        <xmax>8485000</xmax>
+        <ymax>7345000</ymax>
+      </extent>
+      <id>access_pop_2030_0104005d_a2ec_4db0_9d04_a07ccc56a0e0</id>
+      <datasource>./access_pop_2030.tif</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>access_pop_2030</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=laea +lat_0=0 +lon_0=18 +x_0=4321000 +y_0=3210000 +a=6378137 +b=6378137 +units=m +no_defs</proj4>
+          <srsid>100025</srsid>
+          <srid>0</srid>
+          <authid>USER:100025</authid>
+          <description> * Generated CRS (+proj=laea +lat_0=0 +lon_0=18 +x_0=4321000 +y_0=3210000 +a=6378137 +b=6378137 +units=m +no_defs)</description>
+          <projectionacronym>laea</projectionacronym>
+          <ellipsoidacronym></ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent>
+          <spatial crs="" maxx="0" maxz="0" minz="0" maxy="0" miny="0" minx="0" dimensions="2"/>
+          <temporal>
+            <period>
+              <start></start>
+              <end></end>
+            </period>
+          </temporal>
+        </extent>
+        <contact>
+          <name></name>
+          <organization></organization>
+          <position></position>
+          <voice></voice>
+          <fax></fax>
+          <email></email>
+          <role></role>
+        </contact>
+        <links/>
+      </resourceMetadata>
+      <customproperties>
+        <property value="false" key="WMSBackgroundLayer"/>
+        <property value="false" key="WMSPublishDataSourceUrl"/>
+        <property value="0" key="embeddedWidgets/count"/>
+        <property value="Value" key="identify/format"/>
+      </customproperties>
+      <provider>gdal</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="1"/>
+      </noData>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <pipe>
+        <rasterrenderer classificationMin="0" band="1" classificationMax="50" opacity="1" type="singlebandpseudocolor" alphaBand="-1">
+          <rasterTransparency/>
+          <minMaxOrigin>
+            <limits>None</limits>
+            <extent>WholeRaster</extent>
+            <statAccuracy>Estimated</statAccuracy>
+            <cumulativeCutLower>0.02</cumulativeCutLower>
+            <cumulativeCutUpper>0.98</cumulativeCutUpper>
+            <stdDevFactor>2</stdDevFactor>
+          </minMaxOrigin>
+          <rastershader>
+            <colorrampshader classificationMode="1" colorRampType="INTERPOLATED" clip="0">
+              <colorramp name="[source]" type="gradient">
+                <prop v="255,255,255,255" k="color1"/>
+                <prop v="0,85,0,255" k="color2"/>
+                <prop v="0" k="discrete"/>
+                <prop v="gradient" k="rampType"/>
+              </colorramp>
+              <item label="0" alpha="255" value="0" color="#ffffff"/>
+              <item label="50" alpha="255" value="50" color="#005500"/>
+            </colorrampshader>
+          </rastershader>
+        </rasterrenderer>
+        <brightnesscontrast brightness="0" contrast="0"/>
+        <huesaturation colorizeStrength="100" colorizeOn="0" colorizeBlue="128" saturation="0" colorizeGreen="128" colorizeRed="255" grayscaleMode="0"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer maxScale="0" autoRefreshTime="0" hasScaleBasedVisibilityFlag="0" refreshOnNotifyEnabled="0" autoRefreshEnabled="0" refreshOnNotifyMessage="" minScale="1e+8" type="raster">
+      <extent>
+        <xmin>-270000</xmin>
+        <ymin>-655000</ymin>
+        <xmax>8485000</xmax>
+        <ymax>7345000</ymax>
+      </extent>
+      <id>access_pop_2040_2c551e48_b857_4d19_9656_c44d828f7b1c</id>
+      <datasource>./access_pop_2040.tif</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>access_pop_2040</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=laea +lat_0=0 +lon_0=18 +x_0=4321000 +y_0=3210000 +a=6378137 +b=6378137 +units=m +no_defs</proj4>
+          <srsid>100025</srsid>
+          <srid>0</srid>
+          <authid>USER:100025</authid>
+          <description> * Generated CRS (+proj=laea +lat_0=0 +lon_0=18 +x_0=4321000 +y_0=3210000 +a=6378137 +b=6378137 +units=m +no_defs)</description>
+          <projectionacronym>laea</projectionacronym>
+          <ellipsoidacronym></ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent>
+          <spatial crs="" maxx="0" maxz="0" minz="0" maxy="0" miny="0" minx="0" dimensions="2"/>
+          <temporal>
+            <period>
+              <start></start>
+              <end></end>
+            </period>
+          </temporal>
+        </extent>
+        <contact>
+          <name></name>
+          <organization></organization>
+          <position></position>
+          <voice></voice>
+          <fax></fax>
+          <email></email>
+          <role></role>
+        </contact>
+        <links/>
+      </resourceMetadata>
+      <customproperties>
+        <property value="false" key="WMSBackgroundLayer"/>
+        <property value="false" key="WMSPublishDataSourceUrl"/>
+        <property value="0" key="embeddedWidgets/count"/>
+        <property value="Value" key="identify/format"/>
+      </customproperties>
+      <provider>gdal</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="1"/>
+      </noData>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <pipe>
+        <rasterrenderer classificationMin="0" band="1" classificationMax="50" opacity="1" type="singlebandpseudocolor" alphaBand="-1">
+          <rasterTransparency/>
+          <minMaxOrigin>
+            <limits>None</limits>
+            <extent>WholeRaster</extent>
+            <statAccuracy>Estimated</statAccuracy>
+            <cumulativeCutLower>0.02</cumulativeCutLower>
+            <cumulativeCutUpper>0.98</cumulativeCutUpper>
+            <stdDevFactor>2</stdDevFactor>
+          </minMaxOrigin>
+          <rastershader>
+            <colorrampshader classificationMode="1" colorRampType="INTERPOLATED" clip="0">
+              <colorramp name="[source]" type="gradient">
+                <prop v="255,255,255,255" k="color1"/>
+                <prop v="0,85,0,255" k="color2"/>
+                <prop v="0" k="discrete"/>
+                <prop v="gradient" k="rampType"/>
+              </colorramp>
+              <item label="0" alpha="255" value="0" color="#ffffff"/>
+              <item label="50" alpha="255" value="50" color="#005500"/>
+            </colorrampshader>
+          </rastershader>
+        </rasterrenderer>
+        <brightnesscontrast brightness="0" contrast="0"/>
+        <huesaturation colorizeStrength="100" colorizeOn="0" colorizeBlue="128" saturation="0" colorizeGreen="128" colorizeRed="255" grayscaleMode="0"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer maxScale="0" autoRefreshTime="0" hasScaleBasedVisibilityFlag="0" refreshOnNotifyEnabled="0" autoRefreshEnabled="0" refreshOnNotifyMessage="" minScale="1e+8" type="raster">
+      <extent>
+        <xmin>-270000</xmin>
+        <ymin>-655000</ymin>
+        <xmax>8485000</xmax>
+        <ymax>7345000</ymax>
+      </extent>
+      <id>access_pop_2050_a27a7b51_ccce_4e6c_9293_e8afd96a362c</id>
+      <datasource>./access_pop_2050.tif</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>access_pop_2050</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=laea +lat_0=0 +lon_0=18 +x_0=4321000 +y_0=3210000 +a=6378137 +b=6378137 +units=m +no_defs</proj4>
+          <srsid>100025</srsid>
+          <srid>0</srid>
+          <authid>USER:100025</authid>
+          <description> * Generated CRS (+proj=laea +lat_0=0 +lon_0=18 +x_0=4321000 +y_0=3210000 +a=6378137 +b=6378137 +units=m +no_defs)</description>
+          <projectionacronym>laea</projectionacronym>
+          <ellipsoidacronym></ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent>
+          <spatial crs="" maxx="0" maxz="0" minz="0" maxy="0" miny="0" minx="0" dimensions="2"/>
+          <temporal>
+            <period>
+              <start></start>
+              <end></end>
+            </period>
+          </temporal>
+        </extent>
+        <contact>
+          <name></name>
+          <organization></organization>
+          <position></position>
+          <voice></voice>
+          <fax></fax>
+          <email></email>
+          <role></role>
+        </contact>
+        <links/>
+      </resourceMetadata>
+      <customproperties>
+        <property value="false" key="WMSBackgroundLayer"/>
+        <property value="false" key="WMSPublishDataSourceUrl"/>
+        <property value="0" key="embeddedWidgets/count"/>
+        <property value="Value" key="identify/format"/>
+      </customproperties>
+      <provider>gdal</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="1"/>
+      </noData>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <pipe>
+        <rasterrenderer classificationMin="0" band="1" classificationMax="50" opacity="1" type="singlebandpseudocolor" alphaBand="-1">
+          <rasterTransparency/>
+          <minMaxOrigin>
+            <limits>None</limits>
+            <extent>WholeRaster</extent>
+            <statAccuracy>Estimated</statAccuracy>
+            <cumulativeCutLower>0.02</cumulativeCutLower>
+            <cumulativeCutUpper>0.98</cumulativeCutUpper>
+            <stdDevFactor>2</stdDevFactor>
+          </minMaxOrigin>
+          <rastershader>
+            <colorrampshader classificationMode="1" colorRampType="INTERPOLATED" clip="0">
+              <colorramp name="[source]" type="gradient">
+                <prop v="250,250,250,255" k="color1"/>
+                <prop v="0,85,0,255" k="color2"/>
+                <prop v="0" k="discrete"/>
+                <prop v="gradient" k="rampType"/>
+              </colorramp>
+              <item label="0" alpha="255" value="0" color="#ffffff"/>
+              <item label="50" alpha="255" value="50" color="#005500"/>
+            </colorrampshader>
+          </rastershader>
+        </rasterrenderer>
+        <brightnesscontrast brightness="0" contrast="0"/>
+        <huesaturation colorizeStrength="100" colorizeOn="0" colorizeBlue="128" saturation="0" colorizeGreen="128" colorizeRed="255" grayscaleMode="0"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer maxScale="0" autoRefreshTime="0" hasScaleBasedVisibilityFlag="0" refreshOnNotifyEnabled="0" autoRefreshEnabled="0" refreshOnNotifyMessage="" minScale="1e+8" type="raster">
+      <extent>
+        <xmin>-270000</xmin>
+        <ymin>-655000</ymin>
+        <xmax>8485000</xmax>
+        <ymax>7345000</ymax>
+      </extent>
+      <id>di9_bdc19453_11b3_4911_b2f1_c72f9628d90f</id>
+      <datasource>./di9.tif</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>di9</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=laea +lat_0=0 +lon_0=18 +x_0=4321000 +y_0=3210000 +a=6378137 +b=6378137 +units=m +no_defs</proj4>
+          <srsid>100025</srsid>
+          <srid>0</srid>
+          <authid>USER:100025</authid>
+          <description> * Generated CRS (+proj=laea +lat_0=0 +lon_0=18 +x_0=4321000 +y_0=3210000 +a=6378137 +b=6378137 +units=m +no_defs)</description>
+          <projectionacronym>laea</projectionacronym>
+          <ellipsoidacronym></ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+        <links/>
+      </resourceMetadata>
+      <customproperties>
+        <property value="Value" key="identify/format"/>
+      </customproperties>
+      <provider>gdal</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="1"/>
+      </noData>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <pipe>
+        <rasterrenderer gradient="BlackToWhite" grayBand="1" opacity="1" type="singlebandgray" alphaBand="-1">
+          <rasterTransparency/>
+          <minMaxOrigin>
+            <limits>MinMax</limits>
+            <extent>WholeRaster</extent>
+            <statAccuracy>Estimated</statAccuracy>
+            <cumulativeCutLower>0.02</cumulativeCutLower>
+            <cumulativeCutUpper>0.98</cumulativeCutUpper>
+            <stdDevFactor>2</stdDevFactor>
+          </minMaxOrigin>
+          <contrastEnhancement>
+            <minValue>-29356</minValue>
+            <maxValue>99999</maxValue>
+            <algorithm>StretchToMinimumMaximum</algorithm>
+          </contrastEnhancement>
+        </rasterrenderer>
+        <brightnesscontrast brightness="0" contrast="0"/>
+        <huesaturation colorizeStrength="100" colorizeOn="0" colorizeBlue="128" saturation="0" colorizeGreen="128" colorizeRed="255" grayscaleMode="0"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer maxScale="0" autoRefreshTime="0" hasScaleBasedVisibilityFlag="0" refreshOnNotifyEnabled="0" autoRefreshEnabled="0" refreshOnNotifyMessage="" minScale="1e+8" type="raster">
+      <extent>
+        <xmin>-270000</xmin>
+        <ymin>-655000</ymin>
+        <xmax>8485000</xmax>
+        <ymax>7345000</ymax>
+      </extent>
+      <id>di_3336a5a4_fef1_4748_a3e2_51743af1e523</id>
+      <datasource>./di.tif</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>di</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=laea +lat_0=0 +lon_0=18 +x_0=4321000 +y_0=3210000 +a=6378137 +b=6378137 +units=m +no_defs</proj4>
+          <srsid>100025</srsid>
+          <srid>0</srid>
+          <authid>USER:100025</authid>
+          <description> * Generated CRS (+proj=laea +lat_0=0 +lon_0=18 +x_0=4321000 +y_0=3210000 +a=6378137 +b=6378137 +units=m +no_defs)</description>
+          <projectionacronym>laea</projectionacronym>
+          <ellipsoidacronym></ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent>
+          <spatial crs="" maxx="0" maxz="0" minz="0" maxy="0" miny="0" minx="0" dimensions="2"/>
+          <temporal>
+            <period>
+              <start></start>
+              <end></end>
+            </period>
+          </temporal>
+        </extent>
+        <contact>
+          <name></name>
+          <organization></organization>
+          <position></position>
+          <voice></voice>
+          <fax></fax>
+          <email></email>
+          <role></role>
+        </contact>
+        <links/>
+      </resourceMetadata>
+      <customproperties>
+        <property value="false" key="WMSBackgroundLayer"/>
+        <property value="false" key="WMSPublishDataSourceUrl"/>
+        <property value="0" key="embeddedWidgets/count"/>
+        <property value="Value" key="identify/format"/>
+      </customproperties>
+      <provider>gdal</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="0"/>
+      </noData>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <pipe>
+        <rasterrenderer gradient="BlackToWhite" grayBand="1" opacity="1" type="singlebandgray" alphaBand="-1">
+          <rasterTransparency/>
+          <minMaxOrigin>
+            <limits>None</limits>
+            <extent>WholeRaster</extent>
+            <statAccuracy>Estimated</statAccuracy>
+            <cumulativeCutLower>0.02</cumulativeCutLower>
+            <cumulativeCutUpper>0.98</cumulativeCutUpper>
+            <stdDevFactor>2</stdDevFactor>
+          </minMaxOrigin>
+          <contrastEnhancement>
+            <minValue>0</minValue>
+            <maxValue>2000</maxValue>
+            <algorithm>StretchToMinimumMaximum</algorithm>
+          </contrastEnhancement>
+        </rasterrenderer>
+        <brightnesscontrast brightness="0" contrast="0"/>
+        <huesaturation colorizeStrength="100" colorizeOn="0" colorizeBlue="128" saturation="0" colorizeGreen="128" colorizeRed="255" grayscaleMode="0"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer maxScale="0" autoRefreshTime="0" hasScaleBasedVisibilityFlag="0" refreshOnNotifyEnabled="0" autoRefreshEnabled="0" refreshOnNotifyMessage="" minScale="1e+8" type="raster">
+      <extent>
+        <xmin>-270000</xmin>
+        <ymin>-655000</ymin>
+        <xmax>8485000</xmax>
+        <ymax>7345000</ymax>
+      </extent>
+      <id>hy9_e40c997b_8d87_4a4b_8323_7a0fa25a27ec</id>
+      <datasource>./hy9.TIF</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>hy9</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=laea +lat_0=0 +lon_0=18 +x_0=4321000 +y_0=3210000 +a=6378137 +b=6378137 +units=m +no_defs</proj4>
+          <srsid>100025</srsid>
+          <srid>0</srid>
+          <authid>USER:100025</authid>
+          <description> * Generated CRS (+proj=laea +lat_0=0 +lon_0=18 +x_0=4321000 +y_0=3210000 +a=6378137 +b=6378137 +units=m +no_defs)</description>
+          <projectionacronym>laea</projectionacronym>
+          <ellipsoidacronym></ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent>
+          <spatial crs="" maxx="0" maxz="0" minz="0" maxy="0" miny="0" minx="0" dimensions="2"/>
+          <temporal>
+            <period>
+              <start></start>
+              <end></end>
+            </period>
+          </temporal>
+        </extent>
+        <contact>
+          <name></name>
+          <organization></organization>
+          <position></position>
+          <voice></voice>
+          <fax></fax>
+          <email></email>
+          <role></role>
+        </contact>
+        <links/>
+      </resourceMetadata>
+      <customproperties>
+        <property value="false" key="WMSBackgroundLayer"/>
+        <property value="false" key="WMSPublishDataSourceUrl"/>
+        <property value="0" key="embeddedWidgets/count"/>
+        <property value="Value" key="identify/format"/>
+      </customproperties>
+      <provider>gdal</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="1"/>
+      </noData>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <pipe>
+        <rasterrenderer gradient="BlackToWhite" grayBand="1" opacity="1" type="singlebandgray" alphaBand="-1">
+          <rasterTransparency/>
+          <minMaxOrigin>
+            <limits>MinMax</limits>
+            <extent>WholeRaster</extent>
+            <statAccuracy>Estimated</statAccuracy>
+            <cumulativeCutLower>0.02</cumulativeCutLower>
+            <cumulativeCutUpper>0.98</cumulativeCutUpper>
+            <stdDevFactor>2</stdDevFactor>
+          </minMaxOrigin>
+          <contrastEnhancement>
+            <minValue>150</minValue>
+            <maxValue>99999</maxValue>
+            <algorithm>StretchToMinimumMaximum</algorithm>
+          </contrastEnhancement>
+        </rasterrenderer>
+        <brightnesscontrast brightness="0" contrast="0"/>
+        <huesaturation colorizeStrength="100" colorizeOn="0" colorizeBlue="128" saturation="0" colorizeGreen="128" colorizeRed="255" grayscaleMode="0"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer maxScale="0" autoRefreshTime="0" hasScaleBasedVisibilityFlag="0" refreshOnNotifyEnabled="0" autoRefreshEnabled="0" refreshOnNotifyMessage="" minScale="1e+8" type="raster">
+      <extent>
+        <xmin>-270000</xmin>
+        <ymin>-655000</ymin>
+        <xmax>8485000</xmax>
+        <ymax>7345000</ymax>
+      </extent>
+      <id>hy_f85613d5_a569_49d0_876f_e8be23cec5de</id>
+      <datasource>./hy.TIF</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>hy</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=laea +lat_0=0 +lon_0=18 +x_0=4321000 +y_0=3210000 +a=6378137 +b=6378137 +units=m +no_defs</proj4>
+          <srsid>100025</srsid>
+          <srid>0</srid>
+          <authid>USER:100025</authid>
+          <description> * Generated CRS (+proj=laea +lat_0=0 +lon_0=18 +x_0=4321000 +y_0=3210000 +a=6378137 +b=6378137 +units=m +no_defs)</description>
+          <projectionacronym>laea</projectionacronym>
+          <ellipsoidacronym></ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+        <links/>
+      </resourceMetadata>
+      <customproperties>
+        <property value="Value" key="identify/format"/>
+      </customproperties>
+      <provider>gdal</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="1"/>
+      </noData>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <pipe>
+        <rasterrenderer gradient="BlackToWhite" grayBand="1" opacity="1" type="singlebandgray" alphaBand="-1">
+          <rasterTransparency/>
+          <minMaxOrigin>
+            <limits>MinMax</limits>
+            <extent>WholeRaster</extent>
+            <statAccuracy>Estimated</statAccuracy>
+            <cumulativeCutLower>0.02</cumulativeCutLower>
+            <cumulativeCutUpper>0.98</cumulativeCutUpper>
+            <stdDevFactor>2</stdDevFactor>
+          </minMaxOrigin>
+          <contrastEnhancement>
+            <minValue>0</minValue>
+            <maxValue>150</maxValue>
+            <algorithm>StretchToMinimumMaximum</algorithm>
+          </contrastEnhancement>
+        </rasterrenderer>
+        <brightnesscontrast brightness="0" contrast="0"/>
+        <huesaturation colorizeStrength="100" colorizeOn="0" colorizeBlue="128" saturation="0" colorizeGreen="128" colorizeRed="255" grayscaleMode="0"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer maxScale="0" autoRefreshTime="0" hasScaleBasedVisibilityFlag="0" refreshOnNotifyEnabled="0" autoRefreshEnabled="0" refreshOnNotifyMessage="" minScale="1e+8" type="raster">
+      <extent>
+        <xmin>-270000</xmin>
+        <ymin>-655000</ymin>
+        <xmax>8485000</xmax>
+        <ymax>7345000</ymax>
+      </extent>
+      <id>pop_norm_1_bf7f2fa0_b22a_40af_929a_285eac3d5893</id>
+      <datasource>./pop_norm_1.tif</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>pop_norm_1</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=laea +lat_0=0 +lon_0=18 +x_0=4321000 +y_0=3210000 +a=6378137 +b=6378137 +units=m +no_defs</proj4>
+          <srsid>100025</srsid>
+          <srid>0</srid>
+          <authid>USER:100025</authid>
+          <description> * Generated CRS (+proj=laea +lat_0=0 +lon_0=18 +x_0=4321000 +y_0=3210000 +a=6378137 +b=6378137 +units=m +no_defs)</description>
+          <projectionacronym>laea</projectionacronym>
+          <ellipsoidacronym></ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent>
+          <spatial crs="" maxx="0" maxz="0" minz="0" maxy="0" miny="0" minx="0" dimensions="2"/>
+          <temporal>
+            <period>
+              <start></start>
+              <end></end>
+            </period>
+          </temporal>
+        </extent>
+        <contact>
+          <name></name>
+          <organization></organization>
+          <position></position>
+          <voice></voice>
+          <fax></fax>
+          <email></email>
+          <role></role>
+        </contact>
+        <links/>
+      </resourceMetadata>
+      <customproperties>
+        <property value="false" key="WMSBackgroundLayer"/>
+        <property value="false" key="WMSPublishDataSourceUrl"/>
+        <property value="0" key="embeddedWidgets/count"/>
+        <property value="Value" key="identify/format"/>
+      </customproperties>
+      <provider>gdal</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="0"/>
+      </noData>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <pipe>
+        <rasterrenderer gradient="WhiteToBlack" grayBand="1" opacity="1" type="singlebandgray" alphaBand="-1">
+          <rasterTransparency/>
+          <minMaxOrigin>
+            <limits>None</limits>
+            <extent>WholeRaster</extent>
+            <statAccuracy>Estimated</statAccuracy>
+            <cumulativeCutLower>0.02</cumulativeCutLower>
+            <cumulativeCutUpper>0.98</cumulativeCutUpper>
+            <stdDevFactor>2</stdDevFactor>
+          </minMaxOrigin>
+          <contrastEnhancement>
+            <minValue>0</minValue>
+            <maxValue>1e-6</maxValue>
+            <algorithm>StretchToMinimumMaximum</algorithm>
+          </contrastEnhancement>
+        </rasterrenderer>
+        <brightnesscontrast brightness="0" contrast="0"/>
+        <huesaturation colorizeStrength="100" colorizeOn="0" colorizeBlue="128" saturation="0" colorizeGreen="128" colorizeRed="255" grayscaleMode="0"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer maxScale="0" autoRefreshTime="0" hasScaleBasedVisibilityFlag="0" refreshOnNotifyEnabled="0" autoRefreshEnabled="0" refreshOnNotifyMessage="" minScale="1e+8" type="raster">
+      <extent>
+        <xmin>-270000</xmin>
+        <ymin>-655000</ymin>
+        <xmax>8485000</xmax>
+        <ymax>7345000</ymax>
+      </extent>
+      <id>pop_norm_2_d15f2904_036f_4af8_a5af_394c5f795f7b</id>
+      <datasource>./pop_norm_2.tif</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>pop_norm_2</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=laea +lat_0=0 +lon_0=18 +x_0=4321000 +y_0=3210000 +a=6378137 +b=6378137 +units=m +no_defs</proj4>
+          <srsid>100025</srsid>
+          <srid>0</srid>
+          <authid>USER:100025</authid>
+          <description> * Generated CRS (+proj=laea +lat_0=0 +lon_0=18 +x_0=4321000 +y_0=3210000 +a=6378137 +b=6378137 +units=m +no_defs)</description>
+          <projectionacronym>laea</projectionacronym>
+          <ellipsoidacronym></ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent>
+          <spatial crs="" maxx="0" maxz="0" minz="0" maxy="0" miny="0" minx="0" dimensions="2"/>
+          <temporal>
+            <period>
+              <start></start>
+              <end></end>
+            </period>
+          </temporal>
+        </extent>
+        <contact>
+          <name></name>
+          <organization></organization>
+          <position></position>
+          <voice></voice>
+          <fax></fax>
+          <email></email>
+          <role></role>
+        </contact>
+        <links/>
+      </resourceMetadata>
+      <customproperties>
+        <property value="false" key="WMSBackgroundLayer"/>
+        <property value="false" key="WMSPublishDataSourceUrl"/>
+        <property value="0" key="embeddedWidgets/count"/>
+        <property value="Value" key="identify/format"/>
+      </customproperties>
+      <provider>gdal</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="0"/>
+      </noData>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <pipe>
+        <rasterrenderer gradient="WhiteToBlack" grayBand="1" opacity="1" type="singlebandgray" alphaBand="-1">
+          <rasterTransparency/>
+          <minMaxOrigin>
+            <limits>None</limits>
+            <extent>WholeRaster</extent>
+            <statAccuracy>Estimated</statAccuracy>
+            <cumulativeCutLower>0.02</cumulativeCutLower>
+            <cumulativeCutUpper>0.98</cumulativeCutUpper>
+            <stdDevFactor>2</stdDevFactor>
+          </minMaxOrigin>
+          <contrastEnhancement>
+            <minValue>0</minValue>
+            <maxValue>1e-6</maxValue>
+            <algorithm>StretchToMinimumMaximum</algorithm>
+          </contrastEnhancement>
+        </rasterrenderer>
+        <brightnesscontrast brightness="0" contrast="0"/>
+        <huesaturation colorizeStrength="100" colorizeOn="0" colorizeBlue="128" saturation="0" colorizeGreen="128" colorizeRed="255" grayscaleMode="0"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer maxScale="0" autoRefreshTime="0" hasScaleBasedVisibilityFlag="0" refreshOnNotifyEnabled="0" autoRefreshEnabled="0" refreshOnNotifyMessage="" minScale="1e+8" type="raster">
+      <extent>
+        <xmin>-226403.87590000001364388</xmin>
+        <ymin>-1936738.40720000024884939</ymin>
+        <xmax>7940993.09709999989718199</xmax>
+        <ymax>7303893.37870000023394823</ymax>
+      </extent>
+      <id>pop_prj_0904c550_6bfe_44d8_b993_fa86c67459da</id>
+      <datasource>./pop_prj.tif</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>pop_prj</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=laea +lat_0=0 +lon_0=18 +x_0=4321000 +y_0=3210000 +a=6378137 +b=6378137 +units=m +no_defs</proj4>
+          <srsid>100025</srsid>
+          <srid>0</srid>
+          <authid>USER:100025</authid>
+          <description> * Generated CRS (+proj=laea +lat_0=0 +lon_0=18 +x_0=4321000 +y_0=3210000 +a=6378137 +b=6378137 +units=m +no_defs)</description>
+          <projectionacronym>laea</projectionacronym>
+          <ellipsoidacronym></ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent>
+          <spatial crs="" maxx="0" maxz="0" minz="0" maxy="0" miny="0" minx="0" dimensions="2"/>
+          <temporal>
+            <period>
+              <start></start>
+              <end></end>
+            </period>
+          </temporal>
+        </extent>
+        <contact>
+          <name></name>
+          <organization></organization>
+          <position></position>
+          <voice></voice>
+          <fax></fax>
+          <email></email>
+          <role></role>
+        </contact>
+        <links/>
+      </resourceMetadata>
+      <customproperties>
+        <property value="false" key="WMSBackgroundLayer"/>
+        <property value="false" key="WMSPublishDataSourceUrl"/>
+        <property value="0" key="embeddedWidgets/count"/>
+        <property value="Value" key="identify/format"/>
+      </customproperties>
+      <provider>gdal</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="0"/>
+      </noData>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <pipe>
+        <rasterrenderer gradient="WhiteToBlack" grayBand="1" opacity="1" type="singlebandgray" alphaBand="-1">
+          <rasterTransparency/>
+          <minMaxOrigin>
+            <limits>None</limits>
+            <extent>WholeRaster</extent>
+            <statAccuracy>Estimated</statAccuracy>
+            <cumulativeCutLower>0.02</cumulativeCutLower>
+            <cumulativeCutUpper>0.98</cumulativeCutUpper>
+            <stdDevFactor>2</stdDevFactor>
+          </minMaxOrigin>
+          <contrastEnhancement>
+            <minValue>0</minValue>
+            <maxValue>50</maxValue>
+            <algorithm>StretchToMinimumMaximum</algorithm>
+          </contrastEnhancement>
+        </rasterrenderer>
+        <brightnesscontrast brightness="0" contrast="0"/>
+        <huesaturation colorizeStrength="100" colorizeOn="0" colorizeBlue="128" saturation="0" colorizeGreen="128" colorizeRed="255" grayscaleMode="0"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer maxScale="0" autoRefreshTime="0" hasScaleBasedVisibilityFlag="0" refreshOnNotifyEnabled="0" autoRefreshEnabled="0" refreshOnNotifyMessage="" minScale="1e+8" type="raster">
+      <extent>
+        <xmin>-270000</xmin>
+        <ymin>-655000</ymin>
+        <xmax>8485000</xmax>
+        <ymax>7345000</ymax>
+      </extent>
+      <id>pop_prj_pos_15e6123d_42db_4883_9281_fc2ba211caca</id>
+      <datasource>./pop_prj_pos.tif</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>pop_prj_pos</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=laea +lat_0=0 +lon_0=18 +x_0=4321000 +y_0=3210000 +a=6378137 +b=6378137 +units=m +no_defs</proj4>
+          <srsid>100025</srsid>
+          <srid>0</srid>
+          <authid>USER:100025</authid>
+          <description> * Generated CRS (+proj=laea +lat_0=0 +lon_0=18 +x_0=4321000 +y_0=3210000 +a=6378137 +b=6378137 +units=m +no_defs)</description>
+          <projectionacronym>laea</projectionacronym>
+          <ellipsoidacronym></ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent>
+          <spatial crs="" maxx="0" maxz="0" minz="0" maxy="0" miny="0" minx="0" dimensions="2"/>
+          <temporal>
+            <period>
+              <start></start>
+              <end></end>
+            </period>
+          </temporal>
+        </extent>
+        <contact>
+          <name></name>
+          <organization></organization>
+          <position></position>
+          <voice></voice>
+          <fax></fax>
+          <email></email>
+          <role></role>
+        </contact>
+        <links/>
+      </resourceMetadata>
+      <customproperties>
+        <property value="false" key="WMSBackgroundLayer"/>
+        <property value="false" key="WMSPublishDataSourceUrl"/>
+        <property value="0" key="embeddedWidgets/count"/>
+        <property value="Value" key="identify/format"/>
+      </customproperties>
+      <provider>gdal</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="0"/>
+      </noData>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <pipe>
+        <rasterrenderer gradient="WhiteToBlack" grayBand="1" opacity="1" type="singlebandgray" alphaBand="-1">
+          <rasterTransparency/>
+          <minMaxOrigin>
+            <limits>None</limits>
+            <extent>WholeRaster</extent>
+            <statAccuracy>Estimated</statAccuracy>
+            <cumulativeCutLower>0.02</cumulativeCutLower>
+            <cumulativeCutUpper>0.98</cumulativeCutUpper>
+            <stdDevFactor>2</stdDevFactor>
+          </minMaxOrigin>
+          <contrastEnhancement>
+            <minValue>0</minValue>
+            <maxValue>50</maxValue>
+            <algorithm>StretchToMinimumMaximum</algorithm>
+          </contrastEnhancement>
+        </rasterrenderer>
+        <brightnesscontrast brightness="0" contrast="0"/>
+        <huesaturation colorizeStrength="100" colorizeOn="0" colorizeBlue="128" saturation="0" colorizeGreen="128" colorizeRed="255" grayscaleMode="0"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer maxScale="0" autoRefreshTime="0" hasScaleBasedVisibilityFlag="0" refreshOnNotifyEnabled="0" autoRefreshEnabled="0" refreshOnNotifyMessage="" minScale="1e+8" type="raster">
+      <extent>
+        <xmin>-270000</xmin>
+        <ymin>-655000</ymin>
+        <xmax>8485000</xmax>
+        <ymax>7345000</ymax>
+      </extent>
+      <id>pop_prj_pos_align_30f50847_7e1c_43d0_bc3f_53e255e4cdca</id>
+      <datasource>./pop_prj_pos_align.tif</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>pop_prj_pos_align</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=laea +lat_0=0 +lon_0=18 +x_0=4321000 +y_0=3210000 +a=6378137 +b=6378137 +units=m +no_defs</proj4>
+          <srsid>100025</srsid>
+          <srid>0</srid>
+          <authid>USER:100025</authid>
+          <description> * Generated CRS (+proj=laea +lat_0=0 +lon_0=18 +x_0=4321000 +y_0=3210000 +a=6378137 +b=6378137 +units=m +no_defs)</description>
+          <projectionacronym>laea</projectionacronym>
+          <ellipsoidacronym></ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent>
+          <spatial crs="" maxx="0" maxz="0" minz="0" maxy="0" miny="0" minx="0" dimensions="2"/>
+          <temporal>
+            <period>
+              <start></start>
+              <end></end>
+            </period>
+          </temporal>
+        </extent>
+        <contact>
+          <name></name>
+          <organization></organization>
+          <position></position>
+          <voice></voice>
+          <fax></fax>
+          <email></email>
+          <role></role>
+        </contact>
+        <links/>
+      </resourceMetadata>
+      <customproperties>
+        <property value="false" key="WMSBackgroundLayer"/>
+        <property value="false" key="WMSPublishDataSourceUrl"/>
+        <property value="0" key="embeddedWidgets/count"/>
+        <property value="Value" key="identify/format"/>
+      </customproperties>
+      <provider>gdal</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="0"/>
+      </noData>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <pipe>
+        <rasterrenderer gradient="WhiteToBlack" grayBand="1" opacity="1" type="singlebandgray" alphaBand="-1">
+          <rasterTransparency/>
+          <minMaxOrigin>
+            <limits>None</limits>
+            <extent>WholeRaster</extent>
+            <statAccuracy>Estimated</statAccuracy>
+            <cumulativeCutLower>0.02</cumulativeCutLower>
+            <cumulativeCutUpper>0.98</cumulativeCutUpper>
+            <stdDevFactor>2</stdDevFactor>
+          </minMaxOrigin>
+          <contrastEnhancement>
+            <minValue>0</minValue>
+            <maxValue>20</maxValue>
+            <algorithm>StretchToMinimumMaximum</algorithm>
+          </contrastEnhancement>
+        </rasterrenderer>
+        <brightnesscontrast brightness="0" contrast="0"/>
+        <huesaturation colorizeStrength="100" colorizeOn="0" colorizeBlue="128" saturation="0" colorizeGreen="128" colorizeRed="255" grayscaleMode="0"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer maxScale="0" autoRefreshTime="0" hasScaleBasedVisibilityFlag="0" refreshOnNotifyEnabled="0" autoRefreshEnabled="0" refreshOnNotifyMessage="" minScale="1e+8" type="raster">
+      <extent>
+        <xmin>-226403.87590000001364388</xmin>
+        <ymin>-1936738.40720000024884939</ymin>
+        <xmax>7940993.09709999989718199</xmax>
+        <ymax>7303893.37870000023394823</ymax>
+      </extent>
+      <id>pop_tot_6cdf2797_dde3_413f_a21a_16227de19df8</id>
+      <datasource>./pop_tot.tif</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>pop_tot</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=laea +lat_0=0 +lon_0=18 +x_0=4321000 +y_0=3210000 +a=6378137 +b=6378137 +units=m +no_defs</proj4>
+          <srsid>100025</srsid>
+          <srid>0</srid>
+          <authid>USER:100025</authid>
+          <description> * Generated CRS (+proj=laea +lat_0=0 +lon_0=18 +x_0=4321000 +y_0=3210000 +a=6378137 +b=6378137 +units=m +no_defs)</description>
+          <projectionacronym>laea</projectionacronym>
+          <ellipsoidacronym></ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+        <links/>
+      </resourceMetadata>
+      <customproperties>
+        <property value="Value" key="identify/format"/>
+      </customproperties>
+      <provider>gdal</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="1"/>
+      </noData>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <pipe>
+        <rasterrenderer gradient="BlackToWhite" grayBand="1" opacity="1" type="singlebandgray" alphaBand="-1">
+          <rasterTransparency/>
+          <minMaxOrigin>
+            <limits>MinMax</limits>
+            <extent>WholeRaster</extent>
+            <statAccuracy>Estimated</statAccuracy>
+            <cumulativeCutLower>0.02</cumulativeCutLower>
+            <cumulativeCutUpper>0.98</cumulativeCutUpper>
+            <stdDevFactor>2</stdDevFactor>
+          </minMaxOrigin>
+          <contrastEnhancement>
+            <minValue>311682</minValue>
+            <maxValue>156756192</maxValue>
+            <algorithm>StretchToMinimumMaximum</algorithm>
+          </contrastEnhancement>
+        </rasterrenderer>
+        <brightnesscontrast brightness="0" contrast="0"/>
+        <huesaturation colorizeStrength="100" colorizeOn="0" colorizeBlue="128" saturation="0" colorizeGreen="128" colorizeRed="255" grayscaleMode="0"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer maxScale="0" autoRefreshTime="0" hasScaleBasedVisibilityFlag="0" refreshOnNotifyEnabled="0" autoRefreshEnabled="0" refreshOnNotifyMessage="" minScale="1e+8" type="raster">
+      <extent>
+        <xmin>-17.53523635864259944</xmin>
+        <ymin>-46.97893142700200286</ymin>
+        <xmax>56.28143030802403501</xmax>
+        <ymax>37.54606857299796019</ymax>
+      </extent>
+      <id>pp_afr_e8e3fd9c_b3dc_483c_901b_f5264ac34271</id>
+      <datasource>../pp_afr.tif</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>pp_afr</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent>
+          <spatial crs="" maxx="0" maxz="0" minz="0" maxy="0" miny="0" minx="0" dimensions="2"/>
+          <temporal>
+            <period>
+              <start></start>
+              <end></end>
+            </period>
+          </temporal>
+        </extent>
+        <contact>
+          <name></name>
+          <organization></organization>
+          <position></position>
+          <voice></voice>
+          <fax></fax>
+          <email></email>
+          <role></role>
+        </contact>
+        <links/>
+      </resourceMetadata>
+      <customproperties>
+        <property value="false" key="WMSBackgroundLayer"/>
+        <property value="false" key="WMSPublishDataSourceUrl"/>
+        <property value="0" key="embeddedWidgets/count"/>
+        <property value="Value" key="identify/format"/>
+      </customproperties>
+      <provider>gdal</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="1"/>
+      </noData>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <pipe>
+        <rasterrenderer gradient="WhiteToBlack" grayBand="1" opacity="1" type="singlebandgray" alphaBand="-1">
+          <rasterTransparency/>
+          <minMaxOrigin>
+            <limits>None</limits>
+            <extent>WholeRaster</extent>
+            <statAccuracy>Estimated</statAccuracy>
+            <cumulativeCutLower>0.02</cumulativeCutLower>
+            <cumulativeCutUpper>0.98</cumulativeCutUpper>
+            <stdDevFactor>2</stdDevFactor>
+          </minMaxOrigin>
+          <contrastEnhancement>
+            <minValue>0</minValue>
+            <maxValue>650.843</maxValue>
+            <algorithm>StretchToMinimumMaximum</algorithm>
+          </contrastEnhancement>
+        </rasterrenderer>
+        <brightnesscontrast brightness="0" contrast="0"/>
+        <huesaturation colorizeStrength="100" colorizeOn="0" colorizeBlue="128" saturation="0" colorizeGreen="128" colorizeRed="255" grayscaleMode="0"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer maxScale="0" autoRefreshTime="0" hasScaleBasedVisibilityFlag="0" refreshOnNotifyEnabled="0" autoRefreshEnabled="0" refreshOnNotifyMessage="" minScale="1e+8" type="raster">
+      <extent>
+        <xmin>-270000</xmin>
+        <ymin>-655000</ymin>
+        <xmax>8485000</xmax>
+        <ymax>7345000</ymax>
+      </extent>
+      <id>pv_2010_f893e158_ca83_45d6_936a_8cab2c147f45</id>
+      <datasource>./pv_2010.tif</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>pv_2010</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=laea +lat_0=0 +lon_0=18 +x_0=4321000 +y_0=3210000 +a=6378137 +b=6378137 +units=m +no_defs</proj4>
+          <srsid>100025</srsid>
+          <srid>0</srid>
+          <authid>USER:100025</authid>
+          <description> * Generated CRS (+proj=laea +lat_0=0 +lon_0=18 +x_0=4321000 +y_0=3210000 +a=6378137 +b=6378137 +units=m +no_defs)</description>
+          <projectionacronym>laea</projectionacronym>
+          <ellipsoidacronym></ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+        <links/>
+      </resourceMetadata>
+      <customproperties>
+        <property value="Value" key="identify/format"/>
+      </customproperties>
+      <provider>gdal</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="1"/>
+      </noData>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <pipe>
+        <rasterrenderer gradient="BlackToWhite" grayBand="1" opacity="1" type="singlebandgray" alphaBand="-1">
+          <rasterTransparency/>
+          <minMaxOrigin>
+            <limits>MinMax</limits>
+            <extent>WholeRaster</extent>
+            <statAccuracy>Estimated</statAccuracy>
+            <cumulativeCutLower>0.02</cumulativeCutLower>
+            <cumulativeCutUpper>0.98</cumulativeCutUpper>
+            <stdDevFactor>2</stdDevFactor>
+          </minMaxOrigin>
+          <contrastEnhancement>
+            <minValue>0</minValue>
+            <maxValue>401</maxValue>
+            <algorithm>StretchToMinimumMaximum</algorithm>
+          </contrastEnhancement>
+        </rasterrenderer>
+        <brightnesscontrast brightness="0" contrast="0"/>
+        <huesaturation colorizeStrength="100" colorizeOn="0" colorizeBlue="128" saturation="0" colorizeGreen="128" colorizeRed="255" grayscaleMode="0"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer maxScale="0" autoRefreshTime="0" hasScaleBasedVisibilityFlag="0" refreshOnNotifyEnabled="0" autoRefreshEnabled="0" refreshOnNotifyMessage="" minScale="1e+8" type="raster">
+      <extent>
+        <xmin>-270000</xmin>
+        <ymin>-655000</ymin>
+        <xmax>8485000</xmax>
+        <ymax>7345000</ymax>
+      </extent>
+      <id>pv_2020_fd8f395e_e0c2_434c_b79c_988b80289cbf</id>
+      <datasource>./pv_2020.tif</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>pv_2020</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=laea +lat_0=0 +lon_0=18 +x_0=4321000 +y_0=3210000 +a=6378137 +b=6378137 +units=m +no_defs</proj4>
+          <srsid>100025</srsid>
+          <srid>0</srid>
+          <authid>USER:100025</authid>
+          <description> * Generated CRS (+proj=laea +lat_0=0 +lon_0=18 +x_0=4321000 +y_0=3210000 +a=6378137 +b=6378137 +units=m +no_defs)</description>
+          <projectionacronym>laea</projectionacronym>
+          <ellipsoidacronym></ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+        <links/>
+      </resourceMetadata>
+      <customproperties>
+        <property value="Value" key="identify/format"/>
+      </customproperties>
+      <provider>gdal</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="1"/>
+      </noData>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <pipe>
+        <rasterrenderer gradient="BlackToWhite" grayBand="1" opacity="1" type="singlebandgray" alphaBand="-1">
+          <rasterTransparency/>
+          <minMaxOrigin>
+            <limits>MinMax</limits>
+            <extent>WholeRaster</extent>
+            <statAccuracy>Estimated</statAccuracy>
+            <cumulativeCutLower>0.02</cumulativeCutLower>
+            <cumulativeCutUpper>0.98</cumulativeCutUpper>
+            <stdDevFactor>2</stdDevFactor>
+          </minMaxOrigin>
+          <contrastEnhancement>
+            <minValue>0</minValue>
+            <maxValue>348.8699951171875</maxValue>
+            <algorithm>StretchToMinimumMaximum</algorithm>
+          </contrastEnhancement>
+        </rasterrenderer>
+        <brightnesscontrast brightness="0" contrast="0"/>
+        <huesaturation colorizeStrength="100" colorizeOn="0" colorizeBlue="128" saturation="0" colorizeGreen="128" colorizeRed="255" grayscaleMode="0"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer maxScale="0" autoRefreshTime="0" hasScaleBasedVisibilityFlag="0" refreshOnNotifyEnabled="0" autoRefreshEnabled="0" refreshOnNotifyMessage="" minScale="1e+8" type="raster">
+      <extent>
+        <xmin>-270000</xmin>
+        <ymin>-655000</ymin>
+        <xmax>8485000</xmax>
+        <ymax>7345000</ymax>
+      </extent>
+      <id>pv_2030_77456c0c_56a7_4420_9831_83c210498bf9</id>
+      <datasource>./pv_2030.tif</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>pv_2030</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=laea +lat_0=0 +lon_0=18 +x_0=4321000 +y_0=3210000 +a=6378137 +b=6378137 +units=m +no_defs</proj4>
+          <srsid>100025</srsid>
+          <srid>0</srid>
+          <authid>USER:100025</authid>
+          <description> * Generated CRS (+proj=laea +lat_0=0 +lon_0=18 +x_0=4321000 +y_0=3210000 +a=6378137 +b=6378137 +units=m +no_defs)</description>
+          <projectionacronym>laea</projectionacronym>
+          <ellipsoidacronym></ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+        <links/>
+      </resourceMetadata>
+      <customproperties>
+        <property value="Value" key="identify/format"/>
+      </customproperties>
+      <provider>gdal</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="1"/>
+      </noData>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <pipe>
+        <rasterrenderer gradient="BlackToWhite" grayBand="1" opacity="1" type="singlebandgray" alphaBand="-1">
+          <rasterTransparency/>
+          <minMaxOrigin>
+            <limits>MinMax</limits>
+            <extent>WholeRaster</extent>
+            <statAccuracy>Estimated</statAccuracy>
+            <cumulativeCutLower>0.02</cumulativeCutLower>
+            <cumulativeCutUpper>0.98</cumulativeCutUpper>
+            <stdDevFactor>2</stdDevFactor>
+          </minMaxOrigin>
+          <contrastEnhancement>
+            <minValue>0</minValue>
+            <maxValue>280.70001220703125</maxValue>
+            <algorithm>StretchToMinimumMaximum</algorithm>
+          </contrastEnhancement>
+        </rasterrenderer>
+        <brightnesscontrast brightness="0" contrast="0"/>
+        <huesaturation colorizeStrength="100" colorizeOn="0" colorizeBlue="128" saturation="0" colorizeGreen="128" colorizeRed="255" grayscaleMode="0"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer maxScale="0" autoRefreshTime="0" hasScaleBasedVisibilityFlag="0" refreshOnNotifyEnabled="0" autoRefreshEnabled="0" refreshOnNotifyMessage="" minScale="1e+8" type="raster">
+      <extent>
+        <xmin>-270000</xmin>
+        <ymin>-655000</ymin>
+        <xmax>8485000</xmax>
+        <ymax>7345000</ymax>
+      </extent>
+      <id>pv_2040_6ef9f8f1_4aa6_482f_be6b_a7f1b75b2548</id>
+      <datasource>./pv_2040.tif</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>pv_2040</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=laea +lat_0=0 +lon_0=18 +x_0=4321000 +y_0=3210000 +a=6378137 +b=6378137 +units=m +no_defs</proj4>
+          <srsid>100025</srsid>
+          <srid>0</srid>
+          <authid>USER:100025</authid>
+          <description> * Generated CRS (+proj=laea +lat_0=0 +lon_0=18 +x_0=4321000 +y_0=3210000 +a=6378137 +b=6378137 +units=m +no_defs)</description>
+          <projectionacronym>laea</projectionacronym>
+          <ellipsoidacronym></ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+        <links/>
+      </resourceMetadata>
+      <customproperties>
+        <property value="Value" key="identify/format"/>
+      </customproperties>
+      <provider>gdal</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="1"/>
+      </noData>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <pipe>
+        <rasterrenderer gradient="BlackToWhite" grayBand="1" opacity="1" type="singlebandgray" alphaBand="-1">
+          <rasterTransparency/>
+          <minMaxOrigin>
+            <limits>MinMax</limits>
+            <extent>WholeRaster</extent>
+            <statAccuracy>Estimated</statAccuracy>
+            <cumulativeCutLower>0.02</cumulativeCutLower>
+            <cumulativeCutUpper>0.98</cumulativeCutUpper>
+            <stdDevFactor>2</stdDevFactor>
+          </minMaxOrigin>
+          <contrastEnhancement>
+            <minValue>0</minValue>
+            <maxValue>228.57000732421875</maxValue>
+            <algorithm>StretchToMinimumMaximum</algorithm>
+          </contrastEnhancement>
+        </rasterrenderer>
+        <brightnesscontrast brightness="0" contrast="0"/>
+        <huesaturation colorizeStrength="100" colorizeOn="0" colorizeBlue="128" saturation="0" colorizeGreen="128" colorizeRed="255" grayscaleMode="0"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer maxScale="0" autoRefreshTime="0" hasScaleBasedVisibilityFlag="0" refreshOnNotifyEnabled="0" autoRefreshEnabled="0" refreshOnNotifyMessage="" minScale="1e+8" type="raster">
+      <extent>
+        <xmin>-270000</xmin>
+        <ymin>-655000</ymin>
+        <xmax>8485000</xmax>
+        <ymax>7345000</ymax>
+      </extent>
+      <id>pv_2050_1903fed4_a20b_450a_9289_6149a6654ed6</id>
+      <datasource>./pv_2050.tif</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>pv_2050</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=laea +lat_0=0 +lon_0=18 +x_0=4321000 +y_0=3210000 +a=6378137 +b=6378137 +units=m +no_defs</proj4>
+          <srsid>100025</srsid>
+          <srid>0</srid>
+          <authid>USER:100025</authid>
+          <description> * Generated CRS (+proj=laea +lat_0=0 +lon_0=18 +x_0=4321000 +y_0=3210000 +a=6378137 +b=6378137 +units=m +no_defs)</description>
+          <projectionacronym>laea</projectionacronym>
+          <ellipsoidacronym></ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+        <links/>
+      </resourceMetadata>
+      <customproperties>
+        <property value="Value" key="identify/format"/>
+      </customproperties>
+      <provider>gdal</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="1"/>
+      </noData>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <pipe>
+        <rasterrenderer gradient="BlackToWhite" grayBand="1" opacity="1" type="singlebandgray" alphaBand="-1">
+          <rasterTransparency/>
+          <minMaxOrigin>
+            <limits>MinMax</limits>
+            <extent>WholeRaster</extent>
+            <statAccuracy>Estimated</statAccuracy>
+            <cumulativeCutLower>0.02</cumulativeCutLower>
+            <cumulativeCutUpper>0.98</cumulativeCutUpper>
+            <stdDevFactor>2</stdDevFactor>
+          </minMaxOrigin>
+          <contrastEnhancement>
+            <minValue>0</minValue>
+            <maxValue>184.4600067138672</maxValue>
+            <algorithm>StretchToMinimumMaximum</algorithm>
+          </contrastEnhancement>
+        </rasterrenderer>
+        <brightnesscontrast brightness="0" contrast="0"/>
+        <huesaturation colorizeStrength="100" colorizeOn="0" colorizeBlue="128" saturation="0" colorizeGreen="128" colorizeRed="255" grayscaleMode="0"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer maxScale="0" autoRefreshTime="0" hasScaleBasedVisibilityFlag="0" refreshOnNotifyEnabled="0" autoRefreshEnabled="0" refreshOnNotifyMessage="" minScale="1e+8" type="raster">
+      <extent>
+        <xmin>-270000</xmin>
+        <ymin>-654999.99999999906867743</ymin>
+        <xmax>8484999.99999999813735485</xmax>
+        <ymax>7345000</ymax>
+      </extent>
+      <id>wtp_2010_151a1812_861a_47c0_b952_2a599acdaf39</id>
+      <datasource>./wtp_2010.TIF</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>wtp_2010</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=laea +lat_0=0 +lon_0=18 +x_0=4321000 +y_0=3210000 +a=6378137 +b=6378137 +units=m +no_defs</proj4>
+          <srsid>100025</srsid>
+          <srid>0</srid>
+          <authid>USER:100025</authid>
+          <description> * Generated CRS (+proj=laea +lat_0=0 +lon_0=18 +x_0=4321000 +y_0=3210000 +a=6378137 +b=6378137 +units=m +no_defs)</description>
+          <projectionacronym>laea</projectionacronym>
+          <ellipsoidacronym></ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+        <links/>
+      </resourceMetadata>
+      <customproperties>
+        <property value="Value" key="identify/format"/>
+      </customproperties>
+      <provider>gdal</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="0"/>
+      </noData>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <pipe>
+        <rasterrenderer gradient="BlackToWhite" grayBand="1" opacity="1" type="singlebandgray" alphaBand="-1">
+          <rasterTransparency/>
+          <minMaxOrigin>
+            <limits>MinMax</limits>
+            <extent>WholeRaster</extent>
+            <statAccuracy>Estimated</statAccuracy>
+            <cumulativeCutLower>0.02</cumulativeCutLower>
+            <cumulativeCutUpper>0.98</cumulativeCutUpper>
+            <stdDevFactor>2</stdDevFactor>
+          </minMaxOrigin>
+          <contrastEnhancement>
+            <minValue>0</minValue>
+            <maxValue>142</maxValue>
+            <algorithm>StretchToMinimumMaximum</algorithm>
+          </contrastEnhancement>
+        </rasterrenderer>
+        <brightnesscontrast brightness="0" contrast="0"/>
+        <huesaturation colorizeStrength="100" colorizeOn="0" colorizeBlue="128" saturation="0" colorizeGreen="128" colorizeRed="255" grayscaleMode="0"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer maxScale="0" autoRefreshTime="0" hasScaleBasedVisibilityFlag="0" refreshOnNotifyEnabled="0" autoRefreshEnabled="0" refreshOnNotifyMessage="" minScale="1e+8" type="raster">
+      <extent>
+        <xmin>-270000</xmin>
+        <ymin>-654999.99999999906867743</ymin>
+        <xmax>8484999.99999999813735485</xmax>
+        <ymax>7345000</ymax>
+      </extent>
+      <id>wtp_2020_5d608978_4126_455c_ac83_37ede24267c5</id>
+      <datasource>./wtp_2020.TIF</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>wtp_2020</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=laea +lat_0=0 +lon_0=18 +x_0=4321000 +y_0=3210000 +a=6378137 +b=6378137 +units=m +no_defs</proj4>
+          <srsid>100025</srsid>
+          <srid>0</srid>
+          <authid>USER:100025</authid>
+          <description> * Generated CRS (+proj=laea +lat_0=0 +lon_0=18 +x_0=4321000 +y_0=3210000 +a=6378137 +b=6378137 +units=m +no_defs)</description>
+          <projectionacronym>laea</projectionacronym>
+          <ellipsoidacronym></ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+        <links/>
+      </resourceMetadata>
+      <customproperties>
+        <property value="Value" key="identify/format"/>
+      </customproperties>
+      <provider>gdal</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="0"/>
+      </noData>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <pipe>
+        <rasterrenderer gradient="BlackToWhite" grayBand="1" opacity="1" type="singlebandgray" alphaBand="-1">
+          <rasterTransparency/>
+          <minMaxOrigin>
+            <limits>MinMax</limits>
+            <extent>WholeRaster</extent>
+            <statAccuracy>Estimated</statAccuracy>
+            <cumulativeCutLower>0.02</cumulativeCutLower>
+            <cumulativeCutUpper>0.98</cumulativeCutUpper>
+            <stdDevFactor>2</stdDevFactor>
+          </minMaxOrigin>
+          <contrastEnhancement>
+            <minValue>0</minValue>
+            <maxValue>188</maxValue>
+            <algorithm>StretchToMinimumMaximum</algorithm>
+          </contrastEnhancement>
+        </rasterrenderer>
+        <brightnesscontrast brightness="0" contrast="0"/>
+        <huesaturation colorizeStrength="100" colorizeOn="0" colorizeBlue="128" saturation="0" colorizeGreen="128" colorizeRed="255" grayscaleMode="0"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer maxScale="0" autoRefreshTime="0" hasScaleBasedVisibilityFlag="0" refreshOnNotifyEnabled="0" autoRefreshEnabled="0" refreshOnNotifyMessage="" minScale="1e+8" type="raster">
+      <extent>
+        <xmin>-270000</xmin>
+        <ymin>-654999.99999999906867743</ymin>
+        <xmax>8484999.99999999813735485</xmax>
+        <ymax>7345000</ymax>
+      </extent>
+      <id>wtp_2030_721732cf_aa4f_4f14_afcb_b24a058ce10c</id>
+      <datasource>./wtp_2030.TIF</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>wtp_2030</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=laea +lat_0=0 +lon_0=18 +x_0=4321000 +y_0=3210000 +a=6378137 +b=6378137 +units=m +no_defs</proj4>
+          <srsid>100025</srsid>
+          <srid>0</srid>
+          <authid>USER:100025</authid>
+          <description> * Generated CRS (+proj=laea +lat_0=0 +lon_0=18 +x_0=4321000 +y_0=3210000 +a=6378137 +b=6378137 +units=m +no_defs)</description>
+          <projectionacronym>laea</projectionacronym>
+          <ellipsoidacronym></ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+        <links/>
+      </resourceMetadata>
+      <customproperties>
+        <property value="Value" key="identify/format"/>
+      </customproperties>
+      <provider>gdal</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="0"/>
+      </noData>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <pipe>
+        <rasterrenderer gradient="BlackToWhite" grayBand="1" opacity="1" type="singlebandgray" alphaBand="-1">
+          <rasterTransparency/>
+          <minMaxOrigin>
+            <limits>MinMax</limits>
+            <extent>WholeRaster</extent>
+            <statAccuracy>Estimated</statAccuracy>
+            <cumulativeCutLower>0.02</cumulativeCutLower>
+            <cumulativeCutUpper>0.98</cumulativeCutUpper>
+            <stdDevFactor>2</stdDevFactor>
+          </minMaxOrigin>
+          <contrastEnhancement>
+            <minValue>0</minValue>
+            <maxValue>255</maxValue>
+            <algorithm>StretchToMinimumMaximum</algorithm>
+          </contrastEnhancement>
+        </rasterrenderer>
+        <brightnesscontrast brightness="0" contrast="0"/>
+        <huesaturation colorizeStrength="100" colorizeOn="0" colorizeBlue="128" saturation="0" colorizeGreen="128" colorizeRed="255" grayscaleMode="0"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer maxScale="0" autoRefreshTime="0" hasScaleBasedVisibilityFlag="0" refreshOnNotifyEnabled="0" autoRefreshEnabled="0" refreshOnNotifyMessage="" minScale="1e+8" type="raster">
+      <extent>
+        <xmin>-270000</xmin>
+        <ymin>-654999.99999999906867743</ymin>
+        <xmax>8484999.99999999813735485</xmax>
+        <ymax>7345000</ymax>
+      </extent>
+      <id>wtp_2040_23a30cc6_d84d_4586_81a4_2b10c72db3bd</id>
+      <datasource>./wtp_2040.TIF</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>wtp_2040</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=laea +lat_0=0 +lon_0=18 +x_0=4321000 +y_0=3210000 +a=6378137 +b=6378137 +units=m +no_defs</proj4>
+          <srsid>100025</srsid>
+          <srid>0</srid>
+          <authid>USER:100025</authid>
+          <description> * Generated CRS (+proj=laea +lat_0=0 +lon_0=18 +x_0=4321000 +y_0=3210000 +a=6378137 +b=6378137 +units=m +no_defs)</description>
+          <projectionacronym>laea</projectionacronym>
+          <ellipsoidacronym></ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+        <links/>
+      </resourceMetadata>
+      <customproperties>
+        <property value="Value" key="identify/format"/>
+      </customproperties>
+      <provider>gdal</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="0"/>
+      </noData>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <pipe>
+        <rasterrenderer gradient="BlackToWhite" grayBand="1" opacity="1" type="singlebandgray" alphaBand="-1">
+          <rasterTransparency/>
+          <minMaxOrigin>
+            <limits>MinMax</limits>
+            <extent>WholeRaster</extent>
+            <statAccuracy>Estimated</statAccuracy>
+            <cumulativeCutLower>0.02</cumulativeCutLower>
+            <cumulativeCutUpper>0.98</cumulativeCutUpper>
+            <stdDevFactor>2</stdDevFactor>
+          </minMaxOrigin>
+          <contrastEnhancement>
+            <minValue>0</minValue>
+            <maxValue>324</maxValue>
+            <algorithm>StretchToMinimumMaximum</algorithm>
+          </contrastEnhancement>
+        </rasterrenderer>
+        <brightnesscontrast brightness="0" contrast="0"/>
+        <huesaturation colorizeStrength="100" colorizeOn="0" colorizeBlue="128" saturation="0" colorizeGreen="128" colorizeRed="255" grayscaleMode="0"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer maxScale="0" autoRefreshTime="0" hasScaleBasedVisibilityFlag="0" refreshOnNotifyEnabled="0" autoRefreshEnabled="0" refreshOnNotifyMessage="" minScale="1e+8" type="raster">
+      <extent>
+        <xmin>-270000</xmin>
+        <ymin>-654999.99999999906867743</ymin>
+        <xmax>8484999.99999999813735485</xmax>
+        <ymax>7345000</ymax>
+      </extent>
+      <id>wtp_2050_de26a376_1474_4fc8_b7bb_19360166ba17</id>
+      <datasource>./wtp_2050.TIF</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>wtp_2050</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=laea +lat_0=0 +lon_0=18 +x_0=4321000 +y_0=3210000 +a=6378137 +b=6378137 +units=m +no_defs</proj4>
+          <srsid>100025</srsid>
+          <srid>0</srid>
+          <authid>USER:100025</authid>
+          <description> * Generated CRS (+proj=laea +lat_0=0 +lon_0=18 +x_0=4321000 +y_0=3210000 +a=6378137 +b=6378137 +units=m +no_defs)</description>
+          <projectionacronym>laea</projectionacronym>
+          <ellipsoidacronym></ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+        <links/>
+      </resourceMetadata>
+      <customproperties>
+        <property value="Value" key="identify/format"/>
+      </customproperties>
+      <provider>gdal</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="0"/>
+      </noData>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <pipe>
+        <rasterrenderer gradient="BlackToWhite" grayBand="1" opacity="1" type="singlebandgray" alphaBand="-1">
+          <rasterTransparency/>
+          <minMaxOrigin>
+            <limits>MinMax</limits>
+            <extent>WholeRaster</extent>
+            <statAccuracy>Estimated</statAccuracy>
+            <cumulativeCutLower>0.02</cumulativeCutLower>
+            <cumulativeCutUpper>0.98</cumulativeCutUpper>
+            <stdDevFactor>2</stdDevFactor>
+          </minMaxOrigin>
+          <contrastEnhancement>
+            <minValue>0</minValue>
+            <maxValue>396</maxValue>
+            <algorithm>StretchToMinimumMaximum</algorithm>
+          </contrastEnhancement>
+        </rasterrenderer>
+        <brightnesscontrast brightness="0" contrast="0"/>
+        <huesaturation colorizeStrength="100" colorizeOn="0" colorizeBlue="128" saturation="0" colorizeGreen="128" colorizeRed="255" grayscaleMode="0"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer maxScale="0" autoRefreshTime="0" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" refreshOnNotifyEnabled="0" geometry="Polygon" simplifyAlgorithm="0" autoRefreshEnabled="0" refreshOnNotifyMessage="" minScale="1e+8" simplifyDrawingHints="1" readOnly="0" labelsEnabled="0" simplifyMaxScale="1" type="vector" simplifyDrawingTol="1">
+      <extent>
+        <xmin>-226403.87594700790941715</xmin>
+        <ymin>-1936738.40721374470740557</ymin>
+        <xmax>7940993.09708235040307045</xmax>
+        <ymax>7303893.37874563876539469</ymax>
+      </extent>
+      <id>wtp_new_e65d8f09_39a1_4dee_977b_b0bbfde2e7fc</id>
+      <datasource>./wtp_new.shp</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>wtp_new</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=laea +lat_0=0 +lon_0=18 +x_0=4321000 +y_0=3210000 +a=6378137 +b=6378137 +units=m +no_defs</proj4>
+          <srsid>100025</srsid>
+          <srid>0</srid>
+          <authid>USER:100025</authid>
+          <description> * Generated CRS (+proj=laea +lat_0=0 +lon_0=18 +x_0=4321000 +y_0=3210000 +a=6378137 +b=6378137 +units=m +no_defs)</description>
+          <projectionacronym>laea</projectionacronym>
+          <ellipsoidacronym></ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent>
+          <spatial crs="" maxx="0" maxz="0" minz="0" maxy="0" miny="0" minx="0" dimensions="2"/>
+          <temporal>
+            <period>
+              <start></start>
+              <end></end>
+            </period>
+          </temporal>
+        </extent>
+        <contact>
+          <name></name>
+          <organization></organization>
+          <position></position>
+          <voice></voice>
+          <fax></fax>
+          <email></email>
+          <role></role>
+        </contact>
+        <links/>
+      </resourceMetadata>
+      <provider encoding="UTF-8">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <expressionfields/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <renderer-v2 forceraster="0" symbollevels="0" enableorderby="0" type="singleSymbol">
+        <symbols>
+          <symbol alpha="1" clip_to_extent="1" name="0" type="fill">
+            <layer class="SimpleFill" locked="0" pass="0" enabled="1">
+              <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
+              <prop v="119,85,173,255" k="color"/>
+              <prop v="bevel" k="joinstyle"/>
+              <prop v="0,0" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="MM" k="offset_unit"/>
+              <prop v="0,0,0,255" k="outline_color"/>
+              <prop v="solid" k="outline_style"/>
+              <prop v="0.26" k="outline_width"/>
+              <prop v="MM" k="outline_width_unit"/>
+              <prop v="no" k="style"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option value="" name="name" type="QString"/>
+                  <Option name="properties"/>
+                  <Option value="collection" name="type" type="QString"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties>
+        <property value="ID" key="dualview/previewExpressions"/>
+        <property value="0" key="embeddedWidgets/count"/>
+        <property key="variableNames"/>
+        <property key="variableValues"/>
+      </customproperties>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <SingleCategoryDiagramRenderer attributeLegend="1" diagramType="Histogram">
+        <DiagramCategory lineSizeScale="3x:0,0,0,0,0,0" barWidth="5" minimumSize="0" sizeType="MM" height="15" penColor="#000000" backgroundColor="#ffffff" labelPlacementMethod="XHeight" backgroundAlpha="255" sizeScale="3x:0,0,0,0,0,0" minScaleDenominator="0" maxScaleDenominator="1e+8" lineSizeType="MM" penWidth="0" diagramOrientation="Up" enabled="0" rotationOffset="270" scaleBasedVisibility="0" opacity="1" scaleDependency="Area" width="15" penAlpha="255">
+          <fontProperties style="" description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0"/>
+          <attribute label="" field="" color="#000000"/>
+        </DiagramCategory>
+      </SingleCategoryDiagramRenderer>
+      <DiagramLayerSettings placement="0" obstacle="0" showAll="1" linePlacementFlags="18" zIndex="0" priority="0" dist="0">
+        <properties>
+          <Option type="Map">
+            <Option value="" name="name" type="QString"/>
+            <Option name="properties"/>
+            <Option value="collection" name="type" type="QString"/>
+          </Option>
+        </properties>
+      </DiagramLayerSettings>
+      <fieldConfiguration>
+        <field name="ID">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="CODE">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="COUNTRY">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="CNTRY">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="REGION">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="countrycou">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="countrysum">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="countrymea">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Country Na">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="wtp-2010">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="wtp-2020">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="wtp-2030">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="wtp-2040">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="wtp-2050">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="wtp-2060">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="wtp-2070">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="wtp-2080">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="wtp-2090">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="wtp-2100">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="pop_totsum">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="pop_sum">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="2010d_sum">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="2020d_sum">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="2030d_sum">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="2040d_sum">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="2050d_sum">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias field="ID" index="0" name=""/>
+        <alias field="CODE" index="1" name=""/>
+        <alias field="COUNTRY" index="2" name=""/>
+        <alias field="CNTRY" index="3" name=""/>
+        <alias field="REGION" index="4" name=""/>
+        <alias field="countrycou" index="5" name=""/>
+        <alias field="countrysum" index="6" name=""/>
+        <alias field="countrymea" index="7" name=""/>
+        <alias field="Country Na" index="8" name=""/>
+        <alias field="wtp-2010" index="9" name=""/>
+        <alias field="wtp-2020" index="10" name=""/>
+        <alias field="wtp-2030" index="11" name=""/>
+        <alias field="wtp-2040" index="12" name=""/>
+        <alias field="wtp-2050" index="13" name=""/>
+        <alias field="wtp-2060" index="14" name=""/>
+        <alias field="wtp-2070" index="15" name=""/>
+        <alias field="wtp-2080" index="16" name=""/>
+        <alias field="wtp-2090" index="17" name=""/>
+        <alias field="wtp-2100" index="18" name=""/>
+        <alias field="pop_totsum" index="19" name=""/>
+        <alias field="pop_sum" index="20" name=""/>
+        <alias field="2010d_sum" index="21" name=""/>
+        <alias field="2020d_sum" index="22" name=""/>
+        <alias field="2030d_sum" index="23" name=""/>
+        <alias field="2040d_sum" index="24" name=""/>
+        <alias field="2050d_sum" index="25" name=""/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default field="ID" applyOnUpdate="0" expression=""/>
+        <default field="CODE" applyOnUpdate="0" expression=""/>
+        <default field="COUNTRY" applyOnUpdate="0" expression=""/>
+        <default field="CNTRY" applyOnUpdate="0" expression=""/>
+        <default field="REGION" applyOnUpdate="0" expression=""/>
+        <default field="countrycou" applyOnUpdate="0" expression=""/>
+        <default field="countrysum" applyOnUpdate="0" expression=""/>
+        <default field="countrymea" applyOnUpdate="0" expression=""/>
+        <default field="Country Na" applyOnUpdate="0" expression=""/>
+        <default field="wtp-2010" applyOnUpdate="0" expression=""/>
+        <default field="wtp-2020" applyOnUpdate="0" expression=""/>
+        <default field="wtp-2030" applyOnUpdate="0" expression=""/>
+        <default field="wtp-2040" applyOnUpdate="0" expression=""/>
+        <default field="wtp-2050" applyOnUpdate="0" expression=""/>
+        <default field="wtp-2060" applyOnUpdate="0" expression=""/>
+        <default field="wtp-2070" applyOnUpdate="0" expression=""/>
+        <default field="wtp-2080" applyOnUpdate="0" expression=""/>
+        <default field="wtp-2090" applyOnUpdate="0" expression=""/>
+        <default field="wtp-2100" applyOnUpdate="0" expression=""/>
+        <default field="pop_totsum" applyOnUpdate="0" expression=""/>
+        <default field="pop_sum" applyOnUpdate="0" expression=""/>
+        <default field="2010d_sum" applyOnUpdate="0" expression=""/>
+        <default field="2020d_sum" applyOnUpdate="0" expression=""/>
+        <default field="2030d_sum" applyOnUpdate="0" expression=""/>
+        <default field="2040d_sum" applyOnUpdate="0" expression=""/>
+        <default field="2050d_sum" applyOnUpdate="0" expression=""/>
+      </defaults>
+      <constraints>
+        <constraint constraints="0" exp_strength="0" field="ID" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="CODE" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="COUNTRY" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="CNTRY" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="REGION" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="countrycou" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="countrysum" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="countrymea" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="Country Na" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="wtp-2010" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="wtp-2020" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="wtp-2030" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="wtp-2040" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="wtp-2050" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="wtp-2060" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="wtp-2070" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="wtp-2080" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="wtp-2090" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="wtp-2100" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="pop_totsum" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="pop_sum" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="2010d_sum" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="2020d_sum" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="2030d_sum" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="2040d_sum" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="2050d_sum" notnull_strength="0" unique_strength="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint field="ID" exp="" desc=""/>
+        <constraint field="CODE" exp="" desc=""/>
+        <constraint field="COUNTRY" exp="" desc=""/>
+        <constraint field="CNTRY" exp="" desc=""/>
+        <constraint field="REGION" exp="" desc=""/>
+        <constraint field="countrycou" exp="" desc=""/>
+        <constraint field="countrysum" exp="" desc=""/>
+        <constraint field="countrymea" exp="" desc=""/>
+        <constraint field="Country Na" exp="" desc=""/>
+        <constraint field="wtp-2010" exp="" desc=""/>
+        <constraint field="wtp-2020" exp="" desc=""/>
+        <constraint field="wtp-2030" exp="" desc=""/>
+        <constraint field="wtp-2040" exp="" desc=""/>
+        <constraint field="wtp-2050" exp="" desc=""/>
+        <constraint field="wtp-2060" exp="" desc=""/>
+        <constraint field="wtp-2070" exp="" desc=""/>
+        <constraint field="wtp-2080" exp="" desc=""/>
+        <constraint field="wtp-2090" exp="" desc=""/>
+        <constraint field="wtp-2100" exp="" desc=""/>
+        <constraint field="pop_totsum" exp="" desc=""/>
+        <constraint field="pop_sum" exp="" desc=""/>
+        <constraint field="2010d_sum" exp="" desc=""/>
+        <constraint field="2020d_sum" exp="" desc=""/>
+        <constraint field="2030d_sum" exp="" desc=""/>
+        <constraint field="2040d_sum" exp="" desc=""/>
+        <constraint field="2050d_sum" exp="" desc=""/>
+      </constraintExpressions>
+      <attributeactions>
+        <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
+      </attributeactions>
+      <attributetableconfig sortExpression="&quot;density_20&quot;" sortOrder="0" actionWidgetStyle="dropDown">
+        <columns>
+          <column width="-1" hidden="0" name="ID" type="field"/>
+          <column width="-1" hidden="0" name="CODE" type="field"/>
+          <column width="-1" hidden="0" name="COUNTRY" type="field"/>
+          <column width="-1" hidden="0" name="CNTRY" type="field"/>
+          <column width="-1" hidden="0" name="REGION" type="field"/>
+          <column width="-1" hidden="0" name="countrycou" type="field"/>
+          <column width="-1" hidden="0" name="countrysum" type="field"/>
+          <column width="-1" hidden="0" name="countrymea" type="field"/>
+          <column width="-1" hidden="0" name="Country Na" type="field"/>
+          <column width="-1" hidden="0" name="wtp-2010" type="field"/>
+          <column width="-1" hidden="0" name="wtp-2020" type="field"/>
+          <column width="-1" hidden="0" name="wtp-2030" type="field"/>
+          <column width="-1" hidden="0" name="wtp-2040" type="field"/>
+          <column width="-1" hidden="0" name="wtp-2050" type="field"/>
+          <column width="-1" hidden="0" name="wtp-2060" type="field"/>
+          <column width="-1" hidden="0" name="wtp-2070" type="field"/>
+          <column width="-1" hidden="0" name="wtp-2080" type="field"/>
+          <column width="-1" hidden="0" name="wtp-2090" type="field"/>
+          <column width="-1" hidden="0" name="wtp-2100" type="field"/>
+          <column width="-1" hidden="0" name="pop_totsum" type="field"/>
+          <column width="-1" hidden="0" name="pop_sum" type="field"/>
+          <column width="-1" hidden="1" type="actions"/>
+        </columns>
+      </attributetableconfig>
+      <editform>.</editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
+"""
+QGIS forms can have a Python function that is called when the form is
+opened.
+
+Use this function to add extra logic to your forms.
+
+Enter the name of the function in the "Python Init function"
+field.
+An example follows:
+"""
+from qgis.PyQt.QtWidgets import QWidget
+
+def my_form_open(dialog, layer, feature):
+	geom = feature.geometry()
+	control = dialog.findChild(QWidget, "MyLineEdit")
+]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable>
+        <field editable="1" name="CNTRY"/>
+        <field editable="1" name="CODE"/>
+        <field editable="1" name="COUNTRY"/>
+        <field editable="1" name="Country Na"/>
+        <field editable="1" name="ID"/>
+        <field editable="1" name="REGION"/>
+        <field editable="1" name="countrycou"/>
+        <field editable="1" name="countrymea"/>
+        <field editable="1" name="countrysum"/>
+        <field editable="1" name="pop_sum"/>
+        <field editable="1" name="pop_totsum"/>
+        <field editable="1" name="wtp-2010"/>
+        <field editable="1" name="wtp-2020"/>
+        <field editable="1" name="wtp-2030"/>
+        <field editable="1" name="wtp-2040"/>
+        <field editable="1" name="wtp-2050"/>
+        <field editable="1" name="wtp-2060"/>
+        <field editable="1" name="wtp-2070"/>
+        <field editable="1" name="wtp-2080"/>
+        <field editable="1" name="wtp-2090"/>
+        <field editable="1" name="wtp-2100"/>
+      </editable>
+      <labelOnTop>
+        <field labelOnTop="0" name="CNTRY"/>
+        <field labelOnTop="0" name="CODE"/>
+        <field labelOnTop="0" name="COUNTRY"/>
+        <field labelOnTop="0" name="Country Na"/>
+        <field labelOnTop="0" name="ID"/>
+        <field labelOnTop="0" name="REGION"/>
+        <field labelOnTop="0" name="countrycou"/>
+        <field labelOnTop="0" name="countrymea"/>
+        <field labelOnTop="0" name="countrysum"/>
+        <field labelOnTop="0" name="pop_sum"/>
+        <field labelOnTop="0" name="pop_totsum"/>
+        <field labelOnTop="0" name="wtp-2010"/>
+        <field labelOnTop="0" name="wtp-2020"/>
+        <field labelOnTop="0" name="wtp-2030"/>
+        <field labelOnTop="0" name="wtp-2040"/>
+        <field labelOnTop="0" name="wtp-2050"/>
+        <field labelOnTop="0" name="wtp-2060"/>
+        <field labelOnTop="0" name="wtp-2070"/>
+        <field labelOnTop="0" name="wtp-2080"/>
+        <field labelOnTop="0" name="wtp-2090"/>
+        <field labelOnTop="0" name="wtp-2100"/>
+      </labelOnTop>
+      <widgets/>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <expressionfields/>
+      <previewExpression>ID</previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+    <maplayer maxScale="0" autoRefreshTime="0" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" refreshOnNotifyEnabled="0" geometry="Polygon" simplifyAlgorithm="0" autoRefreshEnabled="0" refreshOnNotifyMessage="" minScale="1e+8" simplifyDrawingHints="1" readOnly="0" labelsEnabled="0" simplifyMaxScale="1" type="vector" simplifyDrawingTol="1">
+      <extent>
+        <xmin>-226403.87594700790941715</xmin>
+        <ymin>-1936738.40721374470740557</ymin>
+        <xmax>7940993.09708235040307045</xmax>
+        <ymax>7303893.37874563876539469</ymax>
+      </extent>
+      <id>wtp_vec_704fe842_eb4b_4d96_a6ba_1b95961717b4</id>
+      <datasource>./wtp_vec.shp</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>wtp_vec</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=laea +lat_0=0 +lon_0=18 +x_0=4321000 +y_0=3210000 +a=6378137 +b=6378137 +units=m +no_defs</proj4>
+          <srsid>100025</srsid>
+          <srid>0</srid>
+          <authid>USER:100025</authid>
+          <description> * Generated CRS (+proj=laea +lat_0=0 +lon_0=18 +x_0=4321000 +y_0=3210000 +a=6378137 +b=6378137 +units=m +no_defs)</description>
+          <projectionacronym>laea</projectionacronym>
+          <ellipsoidacronym></ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent>
+          <spatial crs="" maxx="0" maxz="0" minz="0" maxy="0" miny="0" minx="0" dimensions="2"/>
+          <temporal>
+            <period>
+              <start></start>
+              <end></end>
+            </period>
+          </temporal>
+        </extent>
+        <contact>
+          <name></name>
+          <organization></organization>
+          <position></position>
+          <voice></voice>
+          <fax></fax>
+          <email></email>
+          <role></role>
+        </contact>
+        <links/>
+      </resourceMetadata>
+      <provider encoding="UTF-8">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <expressionfields/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <renderer-v2 forceraster="0" symbollevels="0" enableorderby="0" type="singleSymbol">
+        <symbols>
+          <symbol alpha="1" clip_to_extent="1" name="0" type="fill">
+            <layer class="SimpleFill" locked="0" pass="0" enabled="1">
+              <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
+              <prop v="202,143,135,255" k="color"/>
+              <prop v="bevel" k="joinstyle"/>
+              <prop v="0,0" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="MM" k="offset_unit"/>
+              <prop v="35,35,35,255" k="outline_color"/>
+              <prop v="solid" k="outline_style"/>
+              <prop v="0.26" k="outline_width"/>
+              <prop v="MM" k="outline_width_unit"/>
+              <prop v="no" k="style"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option value="" name="name" type="QString"/>
+                  <Option name="properties"/>
+                  <Option value="collection" name="type" type="QString"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties>
+        <property value="ID" key="dualview/previewExpressions"/>
+        <property value="0" key="embeddedWidgets/count"/>
+        <property key="variableNames"/>
+        <property key="variableValues"/>
+      </customproperties>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <SingleCategoryDiagramRenderer attributeLegend="1" diagramType="Histogram">
+        <DiagramCategory lineSizeScale="3x:0,0,0,0,0,0" barWidth="5" minimumSize="0" sizeType="MM" height="15" penColor="#000000" backgroundColor="#ffffff" labelPlacementMethod="XHeight" backgroundAlpha="255" sizeScale="3x:0,0,0,0,0,0" minScaleDenominator="0" maxScaleDenominator="1e+8" lineSizeType="MM" penWidth="0" diagramOrientation="Up" enabled="0" rotationOffset="270" scaleBasedVisibility="0" opacity="1" scaleDependency="Area" width="15" penAlpha="255">
+          <fontProperties style="" description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0"/>
+          <attribute label="" field="" color="#000000"/>
+        </DiagramCategory>
+      </SingleCategoryDiagramRenderer>
+      <DiagramLayerSettings placement="0" obstacle="0" showAll="1" linePlacementFlags="18" zIndex="0" priority="0" dist="0">
+        <properties>
+          <Option type="Map">
+            <Option value="" name="name" type="QString"/>
+            <Option name="properties"/>
+            <Option value="collection" name="type" type="QString"/>
+          </Option>
+        </properties>
+      </DiagramLayerSettings>
+      <fieldConfiguration>
+        <field name="ID">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="CODE">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="COUNTRY">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="CNTRY">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="REGION">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="countrycou">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="countrysum">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="countrymea">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Country Na">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="wtp-2010">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="wtp-2020">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="wtp-2030">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="wtp-2040">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="wtp-2050">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="wtp-2060">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="wtp-2070">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="wtp-2080">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="wtp-2090">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="wtp-2100">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="bin2010cou">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="bin2010sum">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="bin2020cou">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="bin2020sum">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="bin2030cou">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="bin2030sum">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="bin2040cou">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="bin2040sum">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="bin2050cou">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="bin2050sum">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="pop2010cou">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="pop2010sum">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="pop2010c_1">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="pop2010s_1">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="pop2010c_2">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="pop2010s_2">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="pop2010c_3">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="pop2010s_3">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="pop2010c_4">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="pop2010s_4">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="pop_count">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="pop_sum">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias field="ID" index="0" name=""/>
+        <alias field="CODE" index="1" name=""/>
+        <alias field="COUNTRY" index="2" name=""/>
+        <alias field="CNTRY" index="3" name=""/>
+        <alias field="REGION" index="4" name=""/>
+        <alias field="countrycou" index="5" name=""/>
+        <alias field="countrysum" index="6" name=""/>
+        <alias field="countrymea" index="7" name=""/>
+        <alias field="Country Na" index="8" name=""/>
+        <alias field="wtp-2010" index="9" name=""/>
+        <alias field="wtp-2020" index="10" name=""/>
+        <alias field="wtp-2030" index="11" name=""/>
+        <alias field="wtp-2040" index="12" name=""/>
+        <alias field="wtp-2050" index="13" name=""/>
+        <alias field="wtp-2060" index="14" name=""/>
+        <alias field="wtp-2070" index="15" name=""/>
+        <alias field="wtp-2080" index="16" name=""/>
+        <alias field="wtp-2090" index="17" name=""/>
+        <alias field="wtp-2100" index="18" name=""/>
+        <alias field="bin2010cou" index="19" name=""/>
+        <alias field="bin2010sum" index="20" name=""/>
+        <alias field="bin2020cou" index="21" name=""/>
+        <alias field="bin2020sum" index="22" name=""/>
+        <alias field="bin2030cou" index="23" name=""/>
+        <alias field="bin2030sum" index="24" name=""/>
+        <alias field="bin2040cou" index="25" name=""/>
+        <alias field="bin2040sum" index="26" name=""/>
+        <alias field="bin2050cou" index="27" name=""/>
+        <alias field="bin2050sum" index="28" name=""/>
+        <alias field="pop2010cou" index="29" name=""/>
+        <alias field="pop2010sum" index="30" name=""/>
+        <alias field="pop2010c_1" index="31" name=""/>
+        <alias field="pop2010s_1" index="32" name=""/>
+        <alias field="pop2010c_2" index="33" name=""/>
+        <alias field="pop2010s_2" index="34" name=""/>
+        <alias field="pop2010c_3" index="35" name=""/>
+        <alias field="pop2010s_3" index="36" name=""/>
+        <alias field="pop2010c_4" index="37" name=""/>
+        <alias field="pop2010s_4" index="38" name=""/>
+        <alias field="pop_count" index="39" name=""/>
+        <alias field="pop_sum" index="40" name=""/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default field="ID" applyOnUpdate="0" expression=""/>
+        <default field="CODE" applyOnUpdate="0" expression=""/>
+        <default field="COUNTRY" applyOnUpdate="0" expression=""/>
+        <default field="CNTRY" applyOnUpdate="0" expression=""/>
+        <default field="REGION" applyOnUpdate="0" expression=""/>
+        <default field="countrycou" applyOnUpdate="0" expression=""/>
+        <default field="countrysum" applyOnUpdate="0" expression=""/>
+        <default field="countrymea" applyOnUpdate="0" expression=""/>
+        <default field="Country Na" applyOnUpdate="0" expression=""/>
+        <default field="wtp-2010" applyOnUpdate="0" expression=""/>
+        <default field="wtp-2020" applyOnUpdate="0" expression=""/>
+        <default field="wtp-2030" applyOnUpdate="0" expression=""/>
+        <default field="wtp-2040" applyOnUpdate="0" expression=""/>
+        <default field="wtp-2050" applyOnUpdate="0" expression=""/>
+        <default field="wtp-2060" applyOnUpdate="0" expression=""/>
+        <default field="wtp-2070" applyOnUpdate="0" expression=""/>
+        <default field="wtp-2080" applyOnUpdate="0" expression=""/>
+        <default field="wtp-2090" applyOnUpdate="0" expression=""/>
+        <default field="wtp-2100" applyOnUpdate="0" expression=""/>
+        <default field="bin2010cou" applyOnUpdate="0" expression=""/>
+        <default field="bin2010sum" applyOnUpdate="0" expression=""/>
+        <default field="bin2020cou" applyOnUpdate="0" expression=""/>
+        <default field="bin2020sum" applyOnUpdate="0" expression=""/>
+        <default field="bin2030cou" applyOnUpdate="0" expression=""/>
+        <default field="bin2030sum" applyOnUpdate="0" expression=""/>
+        <default field="bin2040cou" applyOnUpdate="0" expression=""/>
+        <default field="bin2040sum" applyOnUpdate="0" expression=""/>
+        <default field="bin2050cou" applyOnUpdate="0" expression=""/>
+        <default field="bin2050sum" applyOnUpdate="0" expression=""/>
+        <default field="pop2010cou" applyOnUpdate="0" expression=""/>
+        <default field="pop2010sum" applyOnUpdate="0" expression=""/>
+        <default field="pop2010c_1" applyOnUpdate="0" expression=""/>
+        <default field="pop2010s_1" applyOnUpdate="0" expression=""/>
+        <default field="pop2010c_2" applyOnUpdate="0" expression=""/>
+        <default field="pop2010s_2" applyOnUpdate="0" expression=""/>
+        <default field="pop2010c_3" applyOnUpdate="0" expression=""/>
+        <default field="pop2010s_3" applyOnUpdate="0" expression=""/>
+        <default field="pop2010c_4" applyOnUpdate="0" expression=""/>
+        <default field="pop2010s_4" applyOnUpdate="0" expression=""/>
+        <default field="pop_count" applyOnUpdate="0" expression=""/>
+        <default field="pop_sum" applyOnUpdate="0" expression=""/>
+      </defaults>
+      <constraints>
+        <constraint constraints="0" exp_strength="0" field="ID" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="CODE" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="COUNTRY" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="CNTRY" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="REGION" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="countrycou" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="countrysum" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="countrymea" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="Country Na" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="wtp-2010" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="wtp-2020" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="wtp-2030" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="wtp-2040" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="wtp-2050" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="wtp-2060" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="wtp-2070" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="wtp-2080" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="wtp-2090" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="wtp-2100" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="bin2010cou" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="bin2010sum" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="bin2020cou" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="bin2020sum" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="bin2030cou" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="bin2030sum" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="bin2040cou" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="bin2040sum" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="bin2050cou" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="bin2050sum" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="pop2010cou" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="pop2010sum" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="pop2010c_1" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="pop2010s_1" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="pop2010c_2" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="pop2010s_2" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="pop2010c_3" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="pop2010s_3" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="pop2010c_4" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="pop2010s_4" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="pop_count" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="pop_sum" notnull_strength="0" unique_strength="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint field="ID" exp="" desc=""/>
+        <constraint field="CODE" exp="" desc=""/>
+        <constraint field="COUNTRY" exp="" desc=""/>
+        <constraint field="CNTRY" exp="" desc=""/>
+        <constraint field="REGION" exp="" desc=""/>
+        <constraint field="countrycou" exp="" desc=""/>
+        <constraint field="countrysum" exp="" desc=""/>
+        <constraint field="countrymea" exp="" desc=""/>
+        <constraint field="Country Na" exp="" desc=""/>
+        <constraint field="wtp-2010" exp="" desc=""/>
+        <constraint field="wtp-2020" exp="" desc=""/>
+        <constraint field="wtp-2030" exp="" desc=""/>
+        <constraint field="wtp-2040" exp="" desc=""/>
+        <constraint field="wtp-2050" exp="" desc=""/>
+        <constraint field="wtp-2060" exp="" desc=""/>
+        <constraint field="wtp-2070" exp="" desc=""/>
+        <constraint field="wtp-2080" exp="" desc=""/>
+        <constraint field="wtp-2090" exp="" desc=""/>
+        <constraint field="wtp-2100" exp="" desc=""/>
+        <constraint field="bin2010cou" exp="" desc=""/>
+        <constraint field="bin2010sum" exp="" desc=""/>
+        <constraint field="bin2020cou" exp="" desc=""/>
+        <constraint field="bin2020sum" exp="" desc=""/>
+        <constraint field="bin2030cou" exp="" desc=""/>
+        <constraint field="bin2030sum" exp="" desc=""/>
+        <constraint field="bin2040cou" exp="" desc=""/>
+        <constraint field="bin2040sum" exp="" desc=""/>
+        <constraint field="bin2050cou" exp="" desc=""/>
+        <constraint field="bin2050sum" exp="" desc=""/>
+        <constraint field="pop2010cou" exp="" desc=""/>
+        <constraint field="pop2010sum" exp="" desc=""/>
+        <constraint field="pop2010c_1" exp="" desc=""/>
+        <constraint field="pop2010s_1" exp="" desc=""/>
+        <constraint field="pop2010c_2" exp="" desc=""/>
+        <constraint field="pop2010s_2" exp="" desc=""/>
+        <constraint field="pop2010c_3" exp="" desc=""/>
+        <constraint field="pop2010s_3" exp="" desc=""/>
+        <constraint field="pop2010c_4" exp="" desc=""/>
+        <constraint field="pop2010s_4" exp="" desc=""/>
+        <constraint field="pop_count" exp="" desc=""/>
+        <constraint field="pop_sum" exp="" desc=""/>
+      </constraintExpressions>
+      <attributeactions>
+        <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
+      </attributeactions>
+      <attributetableconfig sortExpression="" sortOrder="0" actionWidgetStyle="dropDown">
+        <columns>
+          <column width="-1" hidden="0" name="ID" type="field"/>
+          <column width="-1" hidden="0" name="CODE" type="field"/>
+          <column width="-1" hidden="0" name="COUNTRY" type="field"/>
+          <column width="-1" hidden="0" name="CNTRY" type="field"/>
+          <column width="-1" hidden="0" name="REGION" type="field"/>
+          <column width="-1" hidden="0" name="countrycou" type="field"/>
+          <column width="-1" hidden="0" name="countrysum" type="field"/>
+          <column width="-1" hidden="0" name="countrymea" type="field"/>
+          <column width="-1" hidden="0" name="Country Na" type="field"/>
+          <column width="-1" hidden="0" name="wtp-2010" type="field"/>
+          <column width="-1" hidden="0" name="wtp-2020" type="field"/>
+          <column width="-1" hidden="0" name="wtp-2030" type="field"/>
+          <column width="-1" hidden="0" name="wtp-2040" type="field"/>
+          <column width="-1" hidden="0" name="wtp-2050" type="field"/>
+          <column width="-1" hidden="0" name="wtp-2060" type="field"/>
+          <column width="-1" hidden="0" name="wtp-2070" type="field"/>
+          <column width="-1" hidden="0" name="wtp-2080" type="field"/>
+          <column width="-1" hidden="0" name="wtp-2090" type="field"/>
+          <column width="-1" hidden="0" name="wtp-2100" type="field"/>
+          <column width="-1" hidden="1" type="actions"/>
+        </columns>
+      </attributetableconfig>
+      <editform>.</editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
+"""
+QGIS forms can have a Python function that is called when the form is
+opened.
+
+Use this function to add extra logic to your forms.
+
+Enter the name of the function in the "Python Init function"
+field.
+An example follows:
+"""
+from qgis.PyQt.QtWidgets import QWidget
+
+def my_form_open(dialog, layer, feature):
+	geom = feature.geometry()
+	control = dialog.findChild(QWidget, "MyLineEdit")
+]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable>
+        <field editable="1" name="CNTRY"/>
+        <field editable="1" name="CODE"/>
+        <field editable="1" name="COUNTRY"/>
+        <field editable="1" name="Country Na"/>
+        <field editable="1" name="ID"/>
+        <field editable="1" name="REGION"/>
+        <field editable="1" name="countrycou"/>
+        <field editable="1" name="countrymea"/>
+        <field editable="1" name="countrysum"/>
+        <field editable="1" name="wtp-2010"/>
+        <field editable="1" name="wtp-2020"/>
+        <field editable="1" name="wtp-2030"/>
+        <field editable="1" name="wtp-2040"/>
+        <field editable="1" name="wtp-2050"/>
+        <field editable="1" name="wtp-2060"/>
+        <field editable="1" name="wtp-2070"/>
+        <field editable="1" name="wtp-2080"/>
+        <field editable="1" name="wtp-2090"/>
+        <field editable="1" name="wtp-2100"/>
+      </editable>
+      <labelOnTop>
+        <field labelOnTop="0" name="CNTRY"/>
+        <field labelOnTop="0" name="CODE"/>
+        <field labelOnTop="0" name="COUNTRY"/>
+        <field labelOnTop="0" name="Country Na"/>
+        <field labelOnTop="0" name="ID"/>
+        <field labelOnTop="0" name="REGION"/>
+        <field labelOnTop="0" name="countrycou"/>
+        <field labelOnTop="0" name="countrymea"/>
+        <field labelOnTop="0" name="countrysum"/>
+        <field labelOnTop="0" name="wtp-2010"/>
+        <field labelOnTop="0" name="wtp-2020"/>
+        <field labelOnTop="0" name="wtp-2030"/>
+        <field labelOnTop="0" name="wtp-2040"/>
+        <field labelOnTop="0" name="wtp-2050"/>
+        <field labelOnTop="0" name="wtp-2060"/>
+        <field labelOnTop="0" name="wtp-2070"/>
+        <field labelOnTop="0" name="wtp-2080"/>
+        <field labelOnTop="0" name="wtp-2090"/>
+        <field labelOnTop="0" name="wtp-2100"/>
+      </labelOnTop>
+      <widgets/>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <expressionfields/>
+      <previewExpression>ID</previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+    <maplayer maxScale="0" autoRefreshTime="0" hasScaleBasedVisibilityFlag="0" refreshOnNotifyEnabled="0" autoRefreshEnabled="0" refreshOnNotifyMessage="" minScale="1e+8" type="raster">
+      <extent>
+        <xmin>-270000</xmin>
+        <ymin>-655000</ymin>
+        <xmax>8485000</xmax>
+        <ymax>7345000</ymax>
+      </extent>
+      <id>zero_a6f2d822_a475_49d6_91fa_3742d1ec8f69</id>
+      <datasource>./zero.tif</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>zero</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=laea +lat_0=0 +lon_0=18 +x_0=4321000 +y_0=3210000 +a=6378137 +b=6378137 +units=m +no_defs</proj4>
+          <srsid>100025</srsid>
+          <srid>0</srid>
+          <authid>USER:100025</authid>
+          <description> * Generated CRS (+proj=laea +lat_0=0 +lon_0=18 +x_0=4321000 +y_0=3210000 +a=6378137 +b=6378137 +units=m +no_defs)</description>
+          <projectionacronym>laea</projectionacronym>
+          <ellipsoidacronym></ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+        <links/>
+      </resourceMetadata>
+      <customproperties>
+        <property value="Value" key="identify/format"/>
+      </customproperties>
+      <provider>gdal</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="1"/>
+      </noData>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <pipe>
+        <rasterrenderer gradient="BlackToWhite" grayBand="1" opacity="1" type="singlebandgray" alphaBand="-1">
+          <rasterTransparency/>
+          <minMaxOrigin>
+            <limits>MinMax</limits>
+            <extent>WholeRaster</extent>
+            <statAccuracy>Estimated</statAccuracy>
+            <cumulativeCutLower>0.02</cumulativeCutLower>
+            <cumulativeCutUpper>0.98</cumulativeCutUpper>
+            <stdDevFactor>2</stdDevFactor>
+          </minMaxOrigin>
+          <contrastEnhancement>
+            <minValue>0</minValue>
+            <maxValue>0</maxValue>
+            <algorithm>StretchToMinimumMaximum</algorithm>
+          </contrastEnhancement>
+        </rasterrenderer>
+        <brightnesscontrast brightness="0" contrast="0"/>
+        <huesaturation colorizeStrength="100" colorizeOn="0" colorizeBlue="128" saturation="0" colorizeGreen="128" colorizeRed="255" grayscaleMode="0"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+  </projectlayers>
+  <layerorder>
+    <layer id="pp_afr_e8e3fd9c_b3dc_483c_901b_f5264ac34271"/>
+    <layer id="pv_2010_f893e158_ca83_45d6_936a_8cab2c147f45"/>
+    <layer id="pv_2020_fd8f395e_e0c2_434c_b79c_988b80289cbf"/>
+    <layer id="pv_2030_77456c0c_56a7_4420_9831_83c210498bf9"/>
+    <layer id="pv_2040_6ef9f8f1_4aa6_482f_be6b_a7f1b75b2548"/>
+    <layer id="pv_2050_1903fed4_a20b_450a_9289_6149a6654ed6"/>
+    <layer id="hy_f85613d5_a569_49d0_876f_e8be23cec5de"/>
+    <layer id="zero_a6f2d822_a475_49d6_91fa_3742d1ec8f69"/>
+    <layer id="di_3336a5a4_fef1_4748_a3e2_51743af1e523"/>
+    <layer id="hy9_e40c997b_8d87_4a4b_8323_7a0fa25a27ec"/>
+    <layer id="di9_bdc19453_11b3_4911_b2f1_c72f9628d90f"/>
+    <layer id="pop_prj_0904c550_6bfe_44d8_b993_fa86c67459da"/>
+    <layer id="wtp_vec_704fe842_eb4b_4d96_a6ba_1b95961717b4"/>
+    <layer id="wtp_new_e65d8f09_39a1_4dee_977b_b0bbfde2e7fc"/>
+    <layer id="pop_tot_6cdf2797_dde3_413f_a21a_16227de19df8"/>
+    <layer id="pop_norm_1_bf7f2fa0_b22a_40af_929a_285eac3d5893"/>
+    <layer id="pop_norm_2_d15f2904_036f_4af8_a5af_394c5f795f7b"/>
+    <layer id="pop_prj_pos_15e6123d_42db_4883_9281_fc2ba211caca"/>
+    <layer id="pop_prj_pos_align_30f50847_7e1c_43d0_bc3f_53e255e4cdca"/>
+    <layer id="wtp_2010_151a1812_861a_47c0_b952_2a599acdaf39"/>
+    <layer id="wtp_2020_5d608978_4126_455c_ac83_37ede24267c5"/>
+    <layer id="wtp_2030_721732cf_aa4f_4f14_afcb_b24a058ce10c"/>
+    <layer id="wtp_2040_23a30cc6_d84d_4586_81a4_2b10c72db3bd"/>
+    <layer id="wtp_2050_de26a376_1474_4fc8_b7bb_19360166ba17"/>
+    <layer id="access_2020_1e8da82e_c344_4354_bec4_df44e8468801"/>
+    <layer id="access_2030_6b1f5034_6391_44d5_b420_c97319bed73a"/>
+    <layer id="access_2040_4eec778c_90d8_461c_8e1e_85e70a42c593"/>
+    <layer id="access_2050_ca485a99_03bf_4a22_9a66_bfbef9673b67"/>
+    <layer id="access_2010_61041932_82de_43a3_b44c_7105414e98a9"/>
+    <layer id="access_pop_2010_9a3fc668_7498_4df4_89de_522cc452a4bd"/>
+    <layer id="access_pop_2020_54e033af_2189_4a53_a414_8546d7b31cbe"/>
+    <layer id="access_pop_2030_0104005d_a2ec_4db0_9d04_a07ccc56a0e0"/>
+    <layer id="access_pop_2040_2c551e48_b857_4d19_9656_c44d828f7b1c"/>
+    <layer id="access_pop_2050_a27a7b51_ccce_4e6c_9293_e8afd96a362c"/>
+  </layerorder>
+  <properties>
+    <PositionPrecision>
+      <Automatic type="bool">true</Automatic>
+      <DecimalPlaces type="int">2</DecimalPlaces>
+    </PositionPrecision>
+    <Measure>
+      <Ellipsoid type="QString">WGS84</Ellipsoid>
+    </Measure>
+    <Measurement>
+      <AreaUnits type="QString">m2</AreaUnits>
+      <DistanceUnits type="QString">meters</DistanceUnits>
+    </Measurement>
+    <Paths>
+      <Absolute type="bool">false</Absolute>
+    </Paths>
+    <Legend>
+      <filterByMap type="bool">false</filterByMap>
+    </Legend>
+    <Gui>
+      <CanvasColorRedPart type="int">255</CanvasColorRedPart>
+      <CanvasColorGreenPart type="int">255</CanvasColorGreenPart>
+      <SelectionColorRedPart type="int">255</SelectionColorRedPart>
+      <SelectionColorAlphaPart type="int">255</SelectionColorAlphaPart>
+      <CanvasColorBluePart type="int">255</CanvasColorBluePart>
+      <SelectionColorBluePart type="int">0</SelectionColorBluePart>
+      <SelectionColorGreenPart type="int">255</SelectionColorGreenPart>
+    </Gui>
+    <SpatialRefSys>
+      <ProjectionsEnabled type="int">1</ProjectionsEnabled>
+    </SpatialRefSys>
+    <PAL>
+      <ShowingPartialsLabels type="bool">true</ShowingPartialsLabels>
+      <DrawRectOnly type="bool">false</DrawRectOnly>
+      <CandidatesLine type="int">50</CandidatesLine>
+      <DrawOutlineLabels type="bool">true</DrawOutlineLabels>
+      <CandidatesPolygon type="int">30</CandidatesPolygon>
+      <ShowingAllLabels type="bool">false</ShowingAllLabels>
+      <CandidatesPoint type="int">16</CandidatesPoint>
+      <SearchMethod type="int">0</SearchMethod>
+      <ShowingCandidates type="bool">false</ShowingCandidates>
+    </PAL>
+  </properties>
+  <visibility-presets/>
+  <transformContext/>
+  <Annotations/>
+  <Layouts/>
+</qgis>
